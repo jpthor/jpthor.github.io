@@ -1,0 +1,151 @@
+@import url('./fonts.css');
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+    background: #0B0B0B;
+    color: #F8F9FA;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    padding-left: 30px;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(38, 208, 124, 1) 15%, rgba(94, 223, 255, 1) 38%, rgba(254, 221, 0, 1) 58%, rgba(147, 215, 61, 1) 73%, rgba(38, 208, 124, 1) 81%, rgba(11, 11, 11, 1) 100%);
+}
+
+.bullet {
+    position: absolute;
+    left: -33.5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid #0B0B0B;
+    border-radius: 50%;
+}
+
+.section {
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    /* Bold */
+    font-style: normal;
+}
+
+.emphasized {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    /* Light */
+    font-style: italic;
+}
+
+.text-light {
+    color: #F8F9FA !important;
+}
+
+.text-green {
+    color: #26D07C !important
+}
+
+.text-blue {
+    color: #5EDFFF !important
+}
+
+.text-yellow {
+    color: #FEDD00 !important
+}
+
+.text-c9 {
+    color: #c9c9c9 !important
+}
+
+#header-logo {
+    height: 40px;
+}
+
+.text-thin {
+    font-weight: 250;
+}
+
+.text-narrow-height {
+    line-height: 1.2;
+}
+
+.p-social {
+    padding-inline: 0.75rem;
+}
+
+.navbar {
+    margin-inline: 5.5rem !important;
+}
+
+.card-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.card-item {
+    background: #101215;
+    border-radius: 10px;
+    padding: 2rem;
+    height: auto;
+}
+
+.card-cont-ent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px;
+    grid-template-rows: 1fr 1fr;
+    gap: 55px;
+}
+
+.card-cont-explorer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+}
+
+.arts {
+    position: absolute;
+    right: 0px;
+    transform: translateX(60%);
+    top: -25%;
+    z-index: -1;
+}
+
+.position-bottom {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+@media (min-width: 993px) {}
+
+
+@media (max-width: 992px) {
+    .header-social {
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
