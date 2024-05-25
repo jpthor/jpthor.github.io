@@ -20,7 +20,6 @@ function loadFooter() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('footer').innerHTML = xhr.responseText;
         }
-        loadJsonData();
     };
     xhr.send();
 }

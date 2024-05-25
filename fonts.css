@@ -133,6 +133,7 @@
 
 .text-medium {
     font-size: 19pt !important;
+    /* font-size: calc(0.6rem + 1vw) !important */
 }
 
 .text-large {
@@ -145,8 +146,9 @@
 
 .text-xxlarge {
     font-size: 73pt !important;
+    /* font-size: calc(2.2rem + 4vw) !important; */
 }
 
-.text-bold{
+.text-bold {
     font-weight: 700;
 }
