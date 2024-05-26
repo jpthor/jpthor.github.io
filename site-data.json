@@ -1,0 +1,190 @@
+{
+    "navbar": {
+        "navbar-links": [
+            {
+                "name": "Home",
+                "url": "#"
+            },
+            {
+                "name": "Links",
+                "url": "#"
+            },
+            {
+                "name": "Docs",
+                "url": "#"
+            }
+        ],
+        "social-links": {
+            "x": {
+                "url": "#"
+            },
+            "instagram": {
+                "url": "#"
+            },
+            "github": {
+                "url": "#"
+            },
+            "tiktok": {
+                "url": "#"
+            },
+            "discord": {
+                "url": "#"
+            },
+            "linkedin": {
+                "url": "#"
+            }
+        }
+    },
+    "footer": {
+        "social-links": {
+            "x": {
+                "url": "#"
+            },
+            "instagram": {
+                "url": "#"
+            },
+            "github": {
+                "url": "#"
+            },
+            "tiktok": {
+                "url": "#"
+            },
+            "discord": {
+                "url": "#"
+            },
+            "linkedin": {
+                "url": "#"
+            }
+        },
+        "links": {
+            "projects": [
+                {
+                    "name": "THORChain",
+                    "url": "#"
+                },
+                {
+                    "name": "Vultisig",
+                    "url": "#"
+                },
+                {
+                    "name": "TraitForge",
+                    "url": "#"
+                },
+                {
+                    "name": "ACCEL Co",
+                    "url": "#"
+                },
+                {
+                    "name": "Nextgen North",
+                    "url": "#"
+                }
+            ],
+            "entrepreneur": [
+                {
+                    "name": "21e8 Capital",
+                    "url": "#"
+                },
+                {
+                    "name": "ARRQ",
+                    "url": "#"
+                }
+            ],
+            "resources": [
+                {
+                    "name": "Investments",
+                    "url": "#"
+                },
+                {
+                    "name": "Media & Press",
+                    "url": "#"
+                }
+            ],
+            "legal": [
+                {
+                    "name": "Terms of Service",
+                    "url": "#"
+                },
+                {
+                    "name": "Privacy Policy",
+                    "url": "#"
+                }
+            ]
+        }
+    },
+    "home": {
+        "page-title": "JPThor",
+        "header": {
+            "title": "Empowering <br> <span class='text-green pl-header'>Adventure</span> <br>& Innovation.",
+            "subtitle": "Unlocking the Potential of Tomorrow through the Spirit of <br> Exploration and Breakthrough Thinking."
+        },
+        "segment-1": {
+            "title": "MEET <span class='text-green'>JP THOR</span>",
+            "description": "A modern-day explorer, entrepreneur, and visionary founder, where every step is an adventure and every adventure sparks innovation. <br> <br> Inspired by the legendary Dick Smith, JP embodies a spirit of boundless curiosity and a drive to push beyond the conventional boundaries of exploration and personal achievement. <br> <br> At the heart of JP's ethos is the ACCEL movement-a dynamic initiative that champions the fusion of high-stakes adventure, cutting-edge innovation, and profound personal growth."
+        },
+        "segment-2": {
+            "title": "PROJECTS",
+            "description": "From decentralized exchanges to secure crypto vaults, and from NFT-based games to movements accelerating growth, these projects are not just concepts but are actively transforming industries and driving forward the future of technology.",
+            "cards": [
+                {
+                    "title": "THORChain",
+                    "description": "Decentralized Exchange",
+                    "url": "#"
+                },
+                {
+                    "title": "Vultisig",
+                    "description": "Secure Crypto Vault",
+                    "url": "#"
+                },
+                {
+                    "title": "TraitForge",
+                    "description": "NFT Honeypot Game",
+                    "url": "#"
+                },
+                {
+                    "title": "ACCEL Co",
+                    "description": "Accelerate Movement",
+                    "url": "#"
+                },
+                {
+                    "title": "Nextgen North",
+                    "description": "Big Ideas For the North",
+                    "url": "#"
+                }
+            ]
+        },
+        "segment-3": {
+            "title": "ENTREPRENEUR",
+            "description": "JP Thor's entrepreneurial spirit is encapsulated in his diverse and dynamic ventures. Navigating the complexities of the crypto market to offering innovative helicopter hire solutions, JP Thor's projects reflect his commitment to pushing the envelope and creating impactful change.",
+            "cards": [
+                {
+                    "title": "21e8 Capital",
+                    "description": "A private Australian Crypto Fund trading on macro timelines.",
+                    "url": "#"
+                },
+                {
+                    "title": "ARRQ",
+                    "description": "Ad-hoc Helicopter Hire Solutions.",
+                    "url": "#"
+                }
+            ]
+        },
+        "segment-4": {
+            "title": "EXPLORER",
+            "description": "As an adventurous entrepreneur, JP Thor embarks on remarkable journeys and undertakes extraordinary projects. From pioneering expeditions to innovative ventures, explore the stories and insights that capture his relentless pursuit of excellence and exploration.",
+            "cards": [
+                {
+                    "title": "A private Australian Crypto Fund trading on macro timelines."
+                },
+                {
+                    "title": "Aston Martin's ultra-luxe chopper arrives in Australia for the first time"
+                },
+                {
+                    "title": "Australian Entrepreneur plans Circumnavigation via Poles"
+                },
+                {
+                    "title": "The first-ever owner of the ACH130 Aston Martin Edition has the ultimate voyage in mind"
+                }
+            ]
+        }
+    }
+}
