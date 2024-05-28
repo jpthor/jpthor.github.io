@@ -86,6 +86,11 @@ function replaceInnerHTMLWithJSONValues() {
                     const hrefValue = getValue(linkQuery);
                     element.setAttribute('href', hrefValue);
                 }
+                if (element.getAttribute('data-target') === 'target') {
+                    const targetQuery = query.split('.').splice(0, query.split('.').length - 1).join('.').concat('.target');
+                    const targetValue = getValue(targetQuery);
+                    element.setAttribute('target', targetValue);
+                }
             }
         }
     });

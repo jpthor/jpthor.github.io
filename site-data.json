@@ -3,110 +3,136 @@
         "navbar-links": [
             {
                 "name": "Home",
-                "url": "#"
+                "url": "#",
+                "target": "_self"
             },
             {
                 "name": "Links",
-                "url": "#"
+                "url": "#",
+                "target": "_self"
             },
             {
                 "name": "Docs",
-                "url": "#"
+                "url": "#",
+                "target": "_self"
             }
         ],
         "social-links": {
             "x": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "instagram": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "github": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "tiktok": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "discord": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "linkedin": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             }
         }
     },
     "footer": {
         "social-links": {
             "x": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "instagram": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "github": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "tiktok": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "discord": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             "linkedin": {
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             }
         },
         "links": {
             "projects": [
                 {
                     "name": "THORChain",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "Vultisig",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "TraitForge",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "ACCEL Co",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "Nextgen North",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ],
             "entrepreneur": [
                 {
                     "name": "21e8 Capital",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "ARRQ",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ],
             "resources": [
                 {
                     "name": "Investments",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "Media & Press",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ],
             "legal": [
                 {
                     "name": "Terms of Service",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "name": "Privacy Policy",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ]
         }
@@ -128,27 +154,32 @@
                 {
                     "title": "THORChain",
                     "description": "Decentralized Exchange",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "title": "Vultisig",
                     "description": "Secure Crypto Vault",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "title": "TraitForge",
                     "description": "NFT Honeypot Game",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "title": "ACCEL Co",
                     "description": "Accelerate Movement",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "title": "Nextgen North",
                     "description": "Big Ideas For the North",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ]
         },
@@ -159,12 +190,14 @@
                 {
                     "title": "21e8 Capital",
                     "description": "A private Australian Crypto Fund trading on macro timelines.",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
                     "title": "ARRQ",
                     "description": "Ad-hoc Helicopter Hire Solutions.",
-                    "url": "#"
+                    "url": "#",
+                    "target": "_blank"
                 }
             ]
         },
@@ -173,18 +206,40 @@
             "description": "As an adventurous entrepreneur, JP Thor embarks on remarkable journeys and undertakes extraordinary projects. From pioneering expeditions to innovative ventures, explore the stories and insights that capture his relentless pursuit of excellence and exploration.",
             "cards": [
                 {
-                    "title": "A private Australian Crypto Fund trading on macro timelines."
+                    "title": "A private Australian Crypto Fund trading on macro timelines.",
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
-                    "title": "Aston Martin's ultra-luxe chopper arrives in Australia for the first time"
+                    "title": "Aston Martin's ultra-luxe chopper arrives in Australia for the first time",
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
-                    "title": "Australian Entrepreneur plans Circumnavigation via Poles"
+                    "title": "Australian Entrepreneur plans Circumnavigation via Poles",
+                    "url": "#",
+                    "target": "_blank"
                 },
                 {
-                    "title": "The first-ever owner of the ACH130 Aston Martin Edition has the ultimate voyage in mind"
+                    "title": "The first-ever owner of the ACH130 Aston Martin Edition has the ultimate voyage in mind",
+                    "url": "#",
+                    "target": "_blank"
                 }
             ]
         }
-    }
+    },
+    "favicon": [
+        {
+            "url": "./fav/apple-touch-icon.png"
+        },
+        {
+            "url": "./fav/favicon-32x32.png"
+        },
+        {
+            "url": "./fav/favicon-16x16.png"
+        },
+        {
+            "url": "./fav/site.webmanifest"
+        }
+    ]
 }
