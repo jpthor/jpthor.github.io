@@ -19,27 +19,27 @@
         ],
         "social-links": {
             "x": {
-                "url": "#",
+                "url": "https://twitter.com/JPTHOR89",
                 "target": "_blank"
             },
             "instagram": {
-                "url": "#",
+                "url": "https://www.instagram.com/jpthor/",
                 "target": "_blank"
             },
             "github": {
-                "url": "#",
+                "url": "https://www.github.com/jpthor",
                 "target": "_blank"
             },
             "tiktok": {
-                "url": "#",
+                "url": "https://www.tiktok.com/jpthor",
                 "target": "_blank"
             },
-            "discord": {
-                "url": "#",
+            "youtube": {
+                "url": "https://www.youtube.com/@jpthor",
                 "target": "_blank"
             },
             "linkedin": {
-                "url": "#",
+                "url": "https://www.linkedin.com/in/jpthor/",
                 "target": "_blank"
             }
         }
@@ -47,27 +47,27 @@
     "footer": {
         "social-links": {
             "x": {
-                "url": "#",
+                "url": "https://twitter.com/JPTHOR89",
                 "target": "_blank"
             },
             "instagram": {
-                "url": "#",
+                "url": "https://www.instagram.com/jpthor/",
                 "target": "_blank"
             },
             "github": {
-                "url": "#",
+                "url": "https://www.github.com/jpthor",
                 "target": "_blank"
             },
             "tiktok": {
-                "url": "#",
+                "url": "https://www.tiktok.com/jpthor",
                 "target": "_blank"
             },
-            "discord": {
-                "url": "#",
+            "youtube": {
+                "url": "https://www.youtube.com/@jpthor",
                 "target": "_blank"
             },
             "linkedin": {
-                "url": "#",
+                "url": "https://www.linkedin.com/in/jpthor/",
                 "target": "_blank"
             }
         },
@@ -75,39 +75,39 @@
             "projects": [
                 {
                     "name": "THORChain",
-                    "url": "#",
+                    "url": "https://thorchain.org",
                     "target": "_blank"
                 },
                 {
                     "name": "Vultisig",
-                    "url": "#",
+                    "url": "https://vultisig.com",
                     "target": "_blank"
                 },
                 {
                     "name": "TraitForge",
-                    "url": "#",
+                    "url": "https://traitforge.info",
                     "target": "_blank"
                 },
                 {
                     "name": "ACCEL Co",
-                    "url": "#",
+                    "url": "https://www.instagram.com/accel_co",
                     "target": "_blank"
                 },
                 {
                     "name": "Nextgen North",
-                    "url": "#",
+                    "url": "https://linktr.ee/nextgennorth",
                     "target": "_blank"
                 }
             ],
             "entrepreneur": [
                 {
                     "name": "21e8 Capital",
-                    "url": "#",
+                    "url": "https://21e8.capital",
                     "target": "_blank"
                 },
                 {
                     "name": "ARRQ",
-                    "url": "#",
+                    "url": "https://arrq.live",
                     "target": "_blank"
                 }
             ],
@@ -145,7 +145,7 @@
         },
         "segment-1": {
             "title": "MEET <span class='text-green'>JP THOR</span>",
-            "description": "A modern-day explorer, entrepreneur, and visionary founder, where every step is an adventure and every adventure sparks innovation. <br> <br> Inspired by the legendary Dick Smith, JP embodies a spirit of boundless curiosity and a drive to push beyond the conventional boundaries of exploration and personal achievement. <br> <br> At the heart of JP's ethos is the ACCEL movement-a dynamic initiative that champions the fusion of high-stakes adventure, cutting-edge innovation, and profound personal growth."
+            "description": "A modern-day explorer, entrepreneur, and visionary founder, where every step is an adventure and every adventure sparks innovation. <br> <br> JP embodies a spirit of endless curiosity and a drive to push beyond the conventional boundaries of exploration and personal achievement. <br> <br> At the heart of JP's ethos is the ACCELERATE movement-a dynamic initiative that champions the fusion of high-stakes adventure, cutting-edge innovation, and profound personal growth."
         },
         "segment-2": {
             "title": "PROJECTS",
@@ -154,31 +154,31 @@
                 {
                     "title": "THORChain",
                     "description": "Decentralized Exchange",
-                    "url": "#",
+                    "url": "https://thorchain.org",
                     "target": "_blank"
                 },
                 {
                     "title": "Vultisig",
                     "description": "Secure Crypto Vault",
-                    "url": "#",
+                    "url": "https://vultisig.com",
                     "target": "_blank"
                 },
                 {
                     "title": "TraitForge",
                     "description": "NFT Honeypot Game",
-                    "url": "#",
+                    "url": "https://traitforge.info",
                     "target": "_blank"
                 },
                 {
                     "title": "ACCEL Co",
                     "description": "Accelerate Movement",
-                    "url": "#",
+                    "url": "https://accelerateordie.org",
                     "target": "_blank"
                 },
                 {
                     "title": "Nextgen North",
                     "description": "Big Ideas For the North",
-                    "url": "#",
+                    "url": "https://linktr.ee/nextgennorth",
                     "target": "_blank"
                 }
             ]
