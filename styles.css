@@ -143,9 +143,32 @@ h1 {
     margin-top: 10rem;
 }
 
+.ml-minus-12 {
+    margin-left: -12rem;
+}
+
+.header-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100vw;
+}
+
+.mt-lg-high {
+    margin-top: 8rem;
+}
+
+@media (max-width:1600px) {
+    .ml-minus-12 {
+        margin-left: -3rem;
+    }
+}
+
 @media (max-width:1200px) {
-    .globe-img {
-        width: 450px;
+    .ml-minus-12 {
+        margin-left: 0;
     }
 
     .pl-header {
@@ -200,9 +223,6 @@ h1 {
         margin-inline: 2rem !important;
     }
 
-    .globe-img {
-        width: 450px;
-    }
 
     #meet-jp-img {
         margin-top: 2rem;
@@ -257,6 +277,11 @@ h1 {
         height: 450px;
     }
 
+    .header-img {
+        height: 700px;
+        transform: translate(-20%);
+        width: unset;
+    }
 
 
 }
@@ -287,9 +312,6 @@ h1 {
         padding-left: 8rem !important;
     }
 
-    .globe-img {
-        width: 350px;
-    }
 
     #meet-jp-img {
         margin-top: 2rem;
@@ -338,6 +360,12 @@ h1 {
         height: 350px;
     }
 
+    .header-img {
+        height: 700px;
+        transform: translate(-40%);
+        width: unset !important;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -370,10 +398,6 @@ h1 {
         width: 100%;
     }
 
-    .globe-img {
-        width: 300px;
-    }
-
     .arts {
         position: absolute;
         right: 0px;
@@ -382,6 +406,12 @@ h1 {
         z-index: -1;
         width: 300px;
         height: 300px;
+    }
+
+    .header-img {
+        height: 700px;
+        transform: translate(-40%);
+        width: unset !important;
     }
 
 }
@@ -417,10 +447,6 @@ h1 {
         width: 100%;
     }
 
-    .globe-img {
-        width: 300px;
-    }
-
     .arts {
         position: absolute;
         right: 0px;
@@ -429,6 +455,12 @@ h1 {
         z-index: -1;
         width: 300px;
         height: 300px;
+    }
+
+    .header-img {
+        height: 600px;
+        transform: translate(-40%);
+        width: unset !important;
     }
 
 }
