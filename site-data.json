@@ -138,6 +138,15 @@
         }
     },
     "home": {
+        "social-tags": {
+            "site-name": "JP THOR",
+            "title": "JPTHOR Website",
+            "description": "JP THOR, EMPOWERING ADVENTURE & INNOVATION.",
+            "image": "https://jpthor.com/img/jpthor-header.png",
+            "url": "https://jpthor.com",
+            "twitter-card": "summary_large_image",
+            "twitter-creator": "JPTHOR"
+        },
         "page-title": "JPThor",
         "header": {
             "title": "Empowering <br> <span class='pl-header'>Adventure</span> <br>& Innovation.",

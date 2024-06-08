@@ -99,6 +99,10 @@ function replaceInnerHTMLWithJSONValues() {
                     const hrefValue = getValue(linkQuery);
                     element.setAttribute('href', hrefValue);
                 }
+                else if (element.getAttribute('data-attribute') === 'content') {
+                    const contentValue = getValue(query);
+                    element.setAttribute('content', contentValue);
+                }
                 if (element.getAttribute('data-target') === 'target') {
                     const targetQuery = query.split('.').splice(0, query.split('.').length - 1).join('.').concat('.target');
                     const targetValue = getValue(targetQuery);
