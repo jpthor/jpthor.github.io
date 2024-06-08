@@ -12,7 +12,20 @@ function loadNavbar() {
 }
 function loadJs() {
     loadNavbar();
+    updateFavicon();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
+
+function updateFavicon() {
+    const favicon = document.getElementById('favicon');
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    if (darkModeMediaQuery.matches) {
+        favicon.href = 'favicon-dark.svg';
+    } else {
+        favicon.href = 'favicon-light.svg';
+    }
+}
+
 function loadFooter() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', './footer.html', true);

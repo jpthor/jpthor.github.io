@@ -227,19 +227,5 @@
                 }
             ]
         }
-    },
-    "favicon": [
-        {
-            "url": "./fav/apple-touch-icon.png"
-        },
-        {
-            "url": "./fav/favicon-32x32.png"
-        },
-        {
-            "url": "./fav/favicon-16x16.png"
-        },
-        {
-            "url": "./fav/site.webmanifest"
-        }
-    ]
+    }
 }
