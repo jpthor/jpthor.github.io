@@ -112,7 +112,7 @@ function replaceInnerHTMLWithJSONValues() {
         }
     });
 }
-// milad animation scroller
+// animation scroller
 
 
 
