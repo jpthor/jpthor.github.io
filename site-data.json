@@ -2,17 +2,17 @@
     "navbar": {
         "navbar-links": [
             {
-                "name": "Home",
+                "name": "<span style='display:none'>Home</span>",
                 "url": "#",
                 "target": "_self"
             },
             {
-                "name": "Links",
+                "name": "<span style='display:none'>Links</span>",
                 "url": "#",
                 "target": "_self"
             },
             {
-                "name": "Docs",
+                "name": "<span style='display:none'>Docs</span>",
                 "url": "#",
                 "target": "_self"
             }
