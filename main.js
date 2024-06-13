@@ -108,3 +108,39 @@ function replaceInnerHTMLWithJSONValues() {
         }
     });
 }
+// animation scroller
+
+
+
+const items = document.querySelectorAll('.appear2');
+const itemsAppear = document.querySelectorAll('.appear3');
+
+const active = function(entries){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+        entry.target.classList.add('inview2'); 
+        }else{
+            entry.target.classList.remove('inview2'); 
+        }
+    });
+}
+const io2 = new IntersectionObserver(active);
+ for(let i=0; i < items.length; i++){
+    io2.observe(items[i]);
+ }
+
+
+ // appear
+ const active2 = function(entries){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+        entry.target.classList.add('inview2'); 
+        }else{
+            entry.target.classList.remove('inview2'); 
+        }
+    });
+}
+const io3 = new IntersectionObserver(active2);
+ for(let i=0; i < itemsAppear.length; i++){
+    io2.observe(itemsAppear[i]);
+ }
