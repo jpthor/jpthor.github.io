@@ -31,7 +31,7 @@
                 "target": "_blank"
             },
             "tiktok": {
-                "url": "https://www.tiktok.com/jpthor",
+                "url": "https://www.tiktok.com/@jpthor89",
                 "target": "_blank"
             },
             "youtube": {
@@ -107,7 +107,7 @@
                 },
                 {
                     "name": "ARRQ",
-                    "url": "https://arrq.live",
+                    "url": "https://www.arrq.live/home",
                     "target": "_blank"
                 }
             ],
@@ -119,8 +119,8 @@
                 },
                 {
                     "name": "Media & Press",
-                    "url": "#",
-                    "target": "_blank"
+                    "url": "#explorer",
+                    "target": "_self"
                 }
             ],
             "legal": [
