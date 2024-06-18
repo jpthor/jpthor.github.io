@@ -242,16 +242,16 @@
             "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
             "cards": [
                 {
-                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>Empowering Others.</h3>",
-                    "description": "Our primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - we help people reach their potential and work towards their purpose, whatever that may be."
-                },
-                {
-                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>First Principles.</h3>",
+                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>First Principles.</h3>",
                     "description": "We get to the core of every problem. The genesis of why we are here. We call this first principles. The notion that anything can be broken down into its core elements, and when it can’t be broken down any further, it’s easier to compartmentalise and tackle. We approach every aspect of storytelling in this way."
                 },
                 {
+                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empowering Others.</h3>",
+                    "description": "Our primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - we help people reach their potential and work towards their purpose, whatever that may be."
+                },
+                {
                     "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
-                    "description": "very challenge presents the opportunity for success, or a learning. Our philosophy is one of positivity and optimism, and we are here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
+                    "description": "Every challenge presents the opportunity for success, or a learning. Our philosophy is one of positivity and optimism, and we are here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
                 },
                 {
                     "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
@@ -274,13 +274,13 @@
                 {
                     "title": "Jettson",
                     "description": "Pioneering EVTOL",
-                    "url": "",
+                    "url": "https://jetson.com/",
                     "target": "_blank"
                 },
                 {
                     "title": "air",
                     "description": "Pushing the Envelope of Electric Aviation",
-                    "url": "",
+                    "url": "https://www.airev.aero/",
                     "target": "_blank"
                 },
                 {
@@ -292,7 +292,7 @@
                 {
                     "title": "Civil X",
                     "description": "Civil Solutions for the NT",
-                    "url": "",
+                    "url": "https://civilxnt.com.au/",
                     "target": "_blank"
                 },
                 {
@@ -304,7 +304,7 @@
                 {
                     "title": "Session",
                     "description": "Private Messanger. <br> Send Messages, Not Metadata",
-                    "url": "",
+                    "url": "https://getsession.org/",
                     "target": "_blank"
                 },
                 {
@@ -316,7 +316,7 @@
                 {
                     "title": "Bolt Plus",
                     "description": "Watch. Share. Earn.",
-                    "url": "",
+                    "url": "https://boltplus.tv/login",
                     "target": "_blank"
                 }
             ]
