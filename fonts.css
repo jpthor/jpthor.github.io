@@ -130,6 +130,9 @@
 .text-small {
     font-size: 16pt !important;
 }
+.text-14 {
+    font-size: 14px !important;
+}
 
 .text-medium {
     font-size: 19pt !important;

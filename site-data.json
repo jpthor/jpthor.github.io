@@ -226,6 +226,46 @@
                     "target": "_blank"
                 }
             ]
+        },
+        "segment-5": {
+            "title": "BIO",
+            "description_1": "JP was born on Bathurst Island, north of Darwin and was homeschooled in rural Northern Territory, finishing Top 6 in his final school year for the state in 2006.",
+            "description_2": "He joined the Air Force and studied Aeronautical Engineering, achieving First Class Honours and was awarded top of his graduating year in 2009.",
+            "description_3": "After completing his Air Force pilot training, he was transitioned to Fighter and earned Top Course awards. His Fighter training began in 2012.",
+            "description_4": "JP completed his career as an Air Force pilot in 2016 with a final assignment flying bombers, including operational deployments. He accumulated over 2000 flight hours and flew all over the world in a variety of environments.",
+            "description_5": "He transitioned to crypto in 2013 and started building in 2016. He won several hackathons and in 2017, he launched one of Australia's largest ICOs for a decentralized marketplace. In 2018, he handed over that project and started building a large decentralized trading platform called THORChain under an anonymous identity called \"Leena\". With a team of 5 engineers, THORChain reached a market value of $1 billion within 18 months of launch.",
+            "description_6": "In 2024, 6 years after starting the project, JP turned it over to the community and revealed himself. It has a market value of $2 billion+ with over $1 billion in deposits. It is the largest decentralized trading platform in the world.",
+            "description_7": "JP has now launched a crypto fund and several other projects to solve key problems in the crypto space."
+        },
+        "segment-6": {
+            "title": "JP’s Core<span class='text-yellow'> Principles</span>",
+            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
+            "cards": [
+                {
+                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>Empowering Others.</h3>",
+                    "description": "Our primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - we help people reach their potential and work towards their purpose, whatever that may be."
+                },
+                {
+                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>First Principles.</h3>",
+                    "description": "We get to the core of every problem. The genesis of why we are here. We call this first principles. The notion that anything can be broken down into its core elements, and when it can’t be broken down any further, it’s easier to compartmentalise and tackle. We approach every aspect of storytelling in this way."
+                },
+                {
+                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
+                    "description": "very challenge presents the opportunity for success, or a learning. Our philosophy is one of positivity and optimism, and we are here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
+                },
+                {
+                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
+                    "description": "Whether It’s a personal journey, a career defining moment, a fitness goal, everyone has the potential for greatness, we are here to help others define their purpose and accelerate their potential for greatness through the philosophies and experiences that have helped others like JP reach heights."
+                },
+                {
+                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Innovation & Risk.</h3>",
+                    "description": "Innovation is unprecedented in its very nature, there is an inherent risk involved, a willingness to step into the unknown and reap the rewards or deal with the consequences. This, paired with a positive mental outlook can be your most powerful ally - So we speak with conviction and positivity in the face of adversity."
+                },
+                {
+                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Don’t Overcomplicate it.</h3>",
+                    "description": "We are here to ensure that things get done, planning can only take you so far, our approach is an action-oriented one - sharing the results of our action and learning from the experience rather than planning for something that never comes."
+                }
+            ]
         }
     }
 }
