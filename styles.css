@@ -155,7 +155,9 @@ h1 {
     margin-left: -12rem;
 }
 
-
+.mt-section {
+    margin-top: 10rem !important;
+}
 
 .mt-lg-high {
     margin-top: 8rem;

@@ -266,6 +266,60 @@
                     "description": "We are here to ensure that things get done, planning can only take you so far, our approach is an action-oriented one - sharing the results of our action and learning from the experience rather than planning for something that never comes."
                 }
             ]
+        },
+        "segment-7": {
+            "title": "INVESTOR",
+            "description": "JP's bright mind sees viable projects from afar, so he has invested in or consulted on several. Here are some of them.",
+            "cards": [
+                {
+                    "title": "Jettson",
+                    "description": "Pioneering EVTOL",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "air",
+                    "description": "Pushing the Envelope of Electric Aviation",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Thorswap",
+                    "description": "Decentralized Cross-Chain Exchange",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Civil X",
+                    "description": "Civil Solutions for the NT",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Thorwallet",
+                    "description": "Swap Crypto easily across chains or earn yield",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Session",
+                    "description": "Private Messanger. <br> Send Messages, Not Metadata",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Trust Wallet",
+                    "description": "True crypto ownership",
+                    "url": "",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Bolt Plus",
+                    "description": "Watch. Share. Earn.",
+                    "url": "",
+                    "target": "_blank"
+                }
+            ]
         }
     }
 }
