@@ -140,7 +140,7 @@
     "home": {
         "page-title": "JPThor",
         "header": {
-            "title": "Empowering <br> <span fade-time='2' fade-direction='left' class='pl-header fade-effect'>Adventure</span> <br>& Innovation.",
+            "title": "Empowering <br> <span class='pl-header'>Adventure</span> <br>& Innovation.",
             "subtitle": "Unlocking the Future's Potential through Exploration and Innovative Thinking."
         },
         "segment-1": {
@@ -148,7 +148,7 @@
             "description": "A contemporary explorer, entrepreneur, and visionary leader. <br> <br> JP's limitless curiosity drives him to surpass traditional exploration limits. <br> <br> Driven by the ACCELERATE movement; one that embodies the blend of high-stakes adventure, cutting-edge innovation, and significant personal growth."
         },
         "segment-2": {
-            "title": "FOUNDER",
+            "title": "FOUNDER ",
             "description": "From decentralized exchanges to secure crypto vaults and NFT-based games, JP's ventures are actively transforming industries and shaping the future of technology.",
             "cards": [
                 {
@@ -223,6 +223,100 @@
                 {
                     "title": "The first-ever owner of the ACH130 Aston Martin Edition has the ultimate voyage in mind",
                     "url": "https://boulevard.co/post/jean-paul-thorbjornsen-aston-martin-helicopter/",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "segment-5": {
+            "title": "BIO",
+            "description_1": "JP was born on Bathurst Island, north of Darwin and was homeschooled in rural Northern Territory, finishing Top 6 in his final school year for the state in 2006.",
+            "description_2": "He joined the Air Force and studied Aeronautical Engineering, achieving First Class Honours and was awarded top of his graduating year in 2009.",
+            "description_3": "After completing his Air Force pilot training, he was transitioned to Fighter and earned Top Course awards. His Fighter training began in 2012.",
+            "description_4": "JP completed his career as an Air Force pilot in 2016 with a final assignment flying bombers, including operational deployments. He accumulated over 2000 flight hours and flew all over the world in a variety of environments.",
+            "description_5": "He transitioned to crypto in 2013 and started building in 2016. He won several hackathons and in 2017, he launched one of Australia's largest ICOs for a decentralized marketplace. In 2018, he handed over that project and started building a large decentralized trading platform called THORChain under an anonymous identity called \"Leena\". With a team of 5 engineers, THORChain reached a market value of $1 billion within 18 months of launch.",
+            "description_6": "In 2024, 6 years after starting the project, JP turned it over to the community and revealed himself. It has a market value of $2 billion+ with over $1 billion in deposits. It is the largest decentralized trading platform in the world.",
+            "description_7": "JP has now launched a crypto fund and several other projects to solve key problems in the crypto space."
+        },
+        "segment-6": {
+            "title": "JP’s Core<span class='text-yellow'> Principles</span>",
+            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
+            "cards": [
+                {
+                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>First Principles.</h3>",
+                    "description": "I believe in getting to the core of every problem. This concept, which I call first principles, is about breaking down issues into their fundamental elements. When you can no longer divide them further, it becomes much easier to understand and address them. This approach is how I tackle every aspect of storytelling."
+                },
+                {
+                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empowering Others.</h3>",
+                    "description": "My primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - I help people reach their potential and work towards their purpose, whatever that may be."
+                },
+                {
+                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
+                    "description": "Every challenge presents the opportunity for success, or a learning. My philosophy is one of positivity and optimism, and I stand here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
+                },
+                {
+                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
+                    "description": "Whether It’s a personal journey, a career defining moment, a fitness goal, everyone has the potential for greatness, I am here to help others define their purpose and accelerate their potential for greatness through the philosophies and experiences that have helped others reach heights."
+                },
+                {
+                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Innovation & Risk.</h3>",
+                    "description": "Innovation is unprecedented in its very nature, there is an inherent risk involved, a willingness to step into the unknown and reap the rewards or deal with the consequences. This, paired with a positive mental outlook can be your most powerful ally - So I always speak with conviction and positivity in the face of adversity."
+                },
+                {
+                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Don’t Overcomplicate it.</h3>",
+                    "description": "I am here to ensure that things get done for you. While planning is important, it can only take you so far. My approach is action-oriented – I focus on taking action, sharing the results, and learning from the experience rather than endlessly planning for something that never happens."
+                }
+            ]
+        },
+        "segment-7": {
+            "title": "INVESTOR",
+            "description": "JP's bright mind sees viable projects from afar, so he has invested in or consulted on several. Here are some of them.",
+            "cards": [
+                {
+                    "title": "Jettson",
+                    "description": "Pioneering EVTOL",
+                    "url": "https://jetson.com/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "air",
+                    "description": "Pushing the Envelope of Electric Aviation",
+                    "url": "https://www.airev.aero/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Thorswap",
+                    "description": "Decentralized Cross-Chain Exchange",
+                    "url": "https://thorswap.finance",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Civil X",
+                    "description": "Civil Solutions for the NT",
+                    "url": "https://civilxnt.com.au/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Thorwallet",
+                    "description": "Swap Crypto easily across chains or earn yield",
+                    "url": "https://thorwallet.org",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Session",
+                    "description": "Private Messanger. <br> Send Messages, Not Metadata",
+                    "url": "https://getsession.org/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Trust Wallet",
+                    "description": "True crypto ownership",
+                    "url": "https://trustwallet.com",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Bolt Plus",
+                    "description": "Watch. Share. Earn.",
+                    "url": "https://boltplus.tv/login",
                     "target": "_blank"
                 }
             ]
