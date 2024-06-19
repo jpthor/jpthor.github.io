@@ -140,7 +140,7 @@
     "home": {
         "page-title": "JPThor",
         "header": {
-            "title": "Empowering <br> <span fade-time='2' fade-direction='left' class='pl-header fade-effect'>Adventure</span> <br>& Innovation.",
+            "title": "Empowering <br> <span class='pl-header'>Adventure</span> <br>& Innovation.",
             "subtitle": "Unlocking the Future's Potential through Exploration and Innovative Thinking."
         },
         "segment-1": {
