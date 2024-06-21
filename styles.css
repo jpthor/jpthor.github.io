@@ -48,6 +48,10 @@ h1 {
     font-style: normal;
 }
 
+.text-justify {
+    text-align: justify !important;
+}
+
 .emphasized {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;

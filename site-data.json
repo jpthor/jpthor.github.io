@@ -122,18 +122,6 @@
                     "url": "#explorer",
                     "target": "_self"
                 }
-            ],
-            "legal": [
-                {
-                    "name": "Terms of Service",
-                    "url": "#",
-                    "target": "_blank"
-                },
-                {
-                    "name": "Privacy Policy",
-                    "url": "#",
-                    "target": "_blank"
-                }
             ]
         }
     },
