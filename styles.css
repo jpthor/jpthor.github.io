@@ -774,10 +774,15 @@ h1 {
     .w-75-custom {
         width: 100% !important;
     }
-
+    #menu-ico{
+        height: 30px !important;
+    }
 }
 
 @media (min-width:401px) and (max-width:480px) {
+    #menu-ico{
+        height: 30px !important;
+    }
     .parallax {
         background-position-x: -850px !important;
     }
@@ -814,6 +819,9 @@ h1 {
 }
 
 @media (min-width:481px) and (max-width:768px) {
+    #menu-ico{
+        height: 30px !important;
+    }
     .header-img {
         width: 100%;
     }
@@ -883,4 +891,12 @@ h1 {
 #bio p {
     font-size: 20px;
     line-height: 2rem;
+}
+#menu-ico{
+    height: 50px;
+}
+#uptoTop{
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
 }
