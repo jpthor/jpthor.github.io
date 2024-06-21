@@ -215,46 +215,6 @@
                 }
             ]
         },
-        "segment-5": {
-            "title": "BIO",
-            "description_1": "JP was born on Bathurst Island, north of Darwin and was homeschooled in rural Northern Territory, finishing Top 6 in his final school year for the state in 2006.",
-            "description_2": "He joined the Air Force and studied Aeronautical Engineering, achieving First Class Honours and was awarded top of his graduating year in 2009.",
-            "description_3": "After completing his Air Force pilot training, he was transitioned to Fighter and earned Top Course awards. His Fighter training began in 2012.",
-            "description_4": "JP completed his career as an Air Force pilot in 2016 with a final assignment flying bombers, including operational deployments. He accumulated over 2000 flight hours and flew all over the world in a variety of environments.",
-            "description_5": "He transitioned to crypto in 2013 and started building in 2016. He won several hackathons and in 2017, he launched one of Australia's largest ICOs for a decentralized marketplace. In 2018, he handed over that project and started building a large decentralized trading platform called THORChain under an anonymous identity called \"Leena\". With a team of 5 engineers, THORChain reached a market value of $1 billion within 18 months of launch.",
-            "description_6": "In 2024, 6 years after starting the project, JP turned it over to the community and revealed himself. It has a market value of $2 billion+ with over $1 billion in deposits. It is the largest decentralized trading platform in the world.",
-            "description_7": "JP has now launched a crypto fund and several other projects to solve key problems in the crypto space."
-        },
-        "segment-6": {
-            "title": "JP’s Core<span class='text-yellow'> Principles</span>",
-            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
-            "cards": [
-                {
-                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>First Principles.</h3>",
-                    "description": "I believe in getting to the core of every problem. This concept, which I call first principles, is about breaking down issues into their fundamental elements. When you can no longer divide them further, it becomes much easier to understand and address them. This approach is how I tackle every aspect of storytelling."
-                },
-                {
-                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empowering Others.</h3>",
-                    "description": "My primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - I help people reach their potential and work towards their purpose, whatever that may be."
-                },
-                {
-                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
-                    "description": "Every challenge presents the opportunity for success, or a learning. My philosophy is one of positivity and optimism, and I stand here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
-                },
-                {
-                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
-                    "description": "Whether It’s a personal journey, a career defining moment, a fitness goal, everyone has the potential for greatness, I am here to help others define their purpose and accelerate their potential for greatness through the philosophies and experiences that have helped others reach heights."
-                },
-                {
-                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Innovation & Risk.</h3>",
-                    "description": "Innovation is unprecedented in its very nature, there is an inherent risk involved, a willingness to step into the unknown and reap the rewards or deal with the consequences. This, paired with a positive mental outlook can be your most powerful ally - So I always speak with conviction and positivity in the face of adversity."
-                },
-                {
-                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Don’t Overcomplicate it.</h3>",
-                    "description": "I am here to ensure that things get done for you. While planning is important, it can only take you so far. My approach is action-oriented – I focus on taking action, sharing the results, and learning from the experience rather than endlessly planning for something that never happens."
-                }
-            ]
-        },
         "segment-7": {
             "title": "INVESTOR",
             "description": "JP's bright mind sees viable projects from afar, so he has invested in or consulted on several. Here are some of them.",
@@ -306,6 +266,46 @@
                     "description": "Watch. Share. Earn.",
                     "url": "https://boltplus.tv/login",
                     "target": "_blank"
+                }
+            ]
+        },
+        "segment-8": {
+            "title": "BIO",
+            "description_1": "JP, born on Bathurst Island, North of Darwin, was homeschooled in rural Northern territory, finishing Top 6 for the state in his final year.",
+            "description_2": "He then joined the Air Force and studied Aeronautical Engineering, graduating at the top of his year in 2009 with First Class Honours.",
+            "description_3": "After completing his pilot training – earning top course awards – he began Fighter training in 2012.",
+            "description_4": "JP’s final assignment to conclude his career as an Air Force pilot was flying bombers, with operational deployments. He ended up accumulating 2000+ flight hours and flew all over the world.",
+            "description_5": "In 2013, he transitioned to crypto. In 2017, he launched one of Australia’s biggest ICOs for a decentralised marketplace. In 2018, he handed over the project and began building a large trading platform called THORChain under the pseudonym “Leena” along with a team of 5 engineers.",
+            "description_6": "Within 18 months of launching, THORChain reached a market value of $1 billion. In 2024, JP turned over THORChain to the community and revealed himself. Currently, it is the largest decentralised trading platform in the world, with a market value of over 2$ billion and over $1 billion in deposits.",
+            "description_7": "Now, JP is working on several other projects to solve key problems in the crypto space."
+        },
+        "segment-9": {
+            "title": "JP\u2019s Core<span class='text-yellow'> Principles</span>",
+            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
+            "cards": [
+                {
+                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>First Principles.</h3>",
+                    "description": "I believe in getting to the core of every problem. This concept, which I call first principles, is about breaking down issues into their fundamental elements. When you can no longer divide them further, it becomes much easier to understand and address them. This approach is how I tackle every aspect of storytelling."
+                },
+                {
+                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empowering Others.</h3>",
+                    "description": "My primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - I help people reach their potential and work towards their purpose, whatever that may be."
+                },
+                {
+                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
+                    "description": "Every challenge presents the opportunity for success, or a learning. My philosophy is one of positivity and optimism, and I stand here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
+                },
+                {
+                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
+                    "description": "Whether It\u2019s a personal journey, a career defining moment, a fitness goal, everyone has the potential for greatness, I am here to help others define their purpose and accelerate their potential for greatness through the philosophies and experiences that have helped others reach heights."
+                },
+                {
+                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Innovation & Risk.</h3>",
+                    "description": "Innovation is unprecedented in its very nature, there is an inherent risk involved, a willingness to step into the unknown and reap the rewards or deal with the consequences. This, paired with a positive mental outlook can be your most powerful ally - So I always speak with conviction and positivity in the face of adversity."
+                },
+                {
+                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Don\u2019t Overcomplicate it.</h3>",
+                    "description": "I am here to ensure that things get done for you. While planning is important, it can only take you so far. My approach is action-oriented \u2013 I focus on taking action, sharing the results, and learning from the experience rather than endlessly planning for something that never happens."
                 }
             ]
         }
