@@ -148,6 +148,9 @@ for (let i = 0; i < itemsAppear.length; i++) {
 // scroller
 $(window).scroll(function () {
     const menu = document.querySelector("#menu");
+    if (menu === null) {
+        return;
+    }
     if (window.scrollY > 300) {
         if (!menu.classList.contains('fixed-top')) {
             menu.classList.add('fixed-top');
