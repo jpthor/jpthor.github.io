@@ -147,13 +147,14 @@ for (let i = 0; i < itemsAppear.length; i++) {
 
 // scroller
 $(window).scroll(function () {
+    const menu = document.querySelector("#menu");
     if (window.scrollY > 300) {
-        // document.querySelector("#uptoTop").classList.remove('d-none')
-        document.querySelector("#menu").classList.add('fixed-top')
+        if (!menu.classList.contains('fixed-top')) {
+            menu.classList.add('fixed-top');
+        }
     } else {
-        // document.querySelector("#uptoTop").classList.add('d-none')
-         document.querySelector("#menu").classList.remove('fixed-top')
-
-
+        if (menu.classList.contains('fixed-top')) {
+            menu.classList.remove('fixed-top');
+        }
     }
 });
