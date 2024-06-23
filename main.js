@@ -147,10 +147,17 @@ for (let i = 0; i < itemsAppear.length; i++) {
 
 // scroller
 $(window).scroll(function () {
-    if (window.scrollY > 700) {
-        document.querySelector("#uptoTop").classList.remove('d-none')
+    const menu = document.querySelector("#menu");
+    if (menu === null) {
+        return;
+    }
+    if (window.scrollY > 300) {
+        if (!menu.classList.contains('fixed-top')) {
+            menu.classList.add('fixed-top');
+        }
     } else {
-        document.querySelector("#uptoTop").classList.add('d-none')
-
+        if (menu.classList.contains('fixed-top')) {
+            menu.classList.remove('fixed-top');
+        }
     }
 });
