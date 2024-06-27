@@ -19,7 +19,7 @@
         ],
         "social-links": {
             "x": {
-                "url": "https://twitter.com/JPTHOR",
+                "url": "https://twitter.com/jpthor",
                 "target": "_blank"
             },
             "instagram": {
@@ -42,6 +42,156 @@
                 "url": "https://www.linkedin.com/in/jpthor/",
                 "target": "_blank"
             }
+        }
+    },
+    "home": {
+        "page-title": "JPThor",
+        "header": {
+            "title": "Learn, <br>Move, <br>& Create.",
+            "subtitle": "Accelerating Humanity's Potential through Sheer<br> Determination and Momentum"
+        },
+        "segment-1": {
+            "title": "MEET <span class='text-green'>JP THOR</span>",
+            "description": "A founder, engineer, and explorer. <br> <br> JP's limitless curiosity drives him to challenge humanity's limits. <br> <br> Championing the ACCEL movement; a relentless pursuit of truth, innovation and growth."
+        },
+        "segment-2": {
+            "title": "FOUNDER",
+            "description": "'Plan to succeed, expect to fail'. Nothing is more potent than creating nothing into something. Create, Create, Create",
+            "cards": [
+                {
+                    "title": "THORChain",
+                    "description": "Decentralized Exchange",
+                    "url": "https://thorchain.org",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Vultisig",
+                    "description": "Secure Crypto Vault",
+                    "url": "https://vultisig.com",
+                    "target": "_blank"
+                },
+                {
+                    "title": "ACCEL Co",
+                    "description": "Accelerate Or Die",
+                    "url": "https://accelerateordie.org",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "segment-3": {
+            "title": "ENGINEER",
+            "description": "'Ideas are cheap, execution is everything'. The world is built by engineers and creators. Seek to learn and build every day.",
+            "cards": [
+                {
+                    "title": "Pivotal-BoltPlus",
+                    "description": "A creator-platform powered by a distributed ledger and on-chain incentives.",
+                    "url": "https://boltplus.tv/login",
+                    "target": "_blank"
+                },
+                {
+                    "title": "TraitForge",
+                    "description": "NFT Honeypot Game",
+                    "url": "https://traitforge.info",
+                    "target": "_blank"
+                },
+                {
+                    "title": "THORWallet",
+                    "description": "Decentralised Wallet Platform",
+                    "url": "https://www.thorwallet.org/",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "segment-4": {
+            "title": "EXPLORER",
+            "description": "'Aspire to be high-agency, high-output'. Explore and learn relentlessly; no challenge is insurmountable. The universe is there to be explored.",
+            "cards": [
+                {
+                    "title": "Rotorhub: Australian entrepreneur signs for ACH125 and plans Poles expedition",
+                    "url": "https://www.rotorhub.com/australian-entrepreneur-signs-for-ach125-and-plans-poles-expedition/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Aston Martin's ultra-luxe chopper arrives in Australia for the first time",
+                    "url": "https://www.forbes.com.au/life/motors/aston-martins-ultra-luxe-chopper-arrives-in-australia-for-the-first-time/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Australian Entrepreneur plans Circumnavigation via Poles",
+                    "url": "https://www.australianflying.com.au/helicopters/australian-entrepreneur-plans-circumnavigation-via-poles",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "segment-5": {
+            "title": "INVESTOR",
+            "description": "'Invest in expanding Humanity's memetic output' JP allocates capital to projects that can expand the memetic envelope of humanity.",
+            "cards": [
+                {
+                    "title": "Jetson EV",
+                    "description": "Pioneering EVTOL company",
+                    "url": "https://jetson.com/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Air EV",
+                    "description": "Pushing the Envelope of Electric Aviation",
+                    "url": "https://www.airev.aero/",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Thorswap",
+                    "description": "Decentralized Cross-Chain Interface",
+                    "url": "https://thorswap.finance",
+                    "target": "_blank"
+                },
+                {
+                    "title": "Session",
+                    "description": "Private Messanger. <br> Send Messages, Not Metadata",
+                    "url": "https://getsession.org/",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "segment-6": {
+            "title": "BIO",
+            "description_1": "JP, born on Bathurst Island, North of Darwin, was homeschooled in rural Northern territory, finishing Top 6 for the state in his final year.",
+            "description_2": "He then joined the Air Force and studied Aeronautical Engineering, graduating at the top of his year in 2009 with First Class Honours.",
+            "description_3": "After completing his pilot training – earning top course awards – he began Fighter training in 2012.",
+            "description_4": "JP’s final assignment to conclude his career as an Air Force pilot was flying bombers, with operational deployments. He ended up accumulating 2000+ flight hours and flew all over the world.",
+            "description_5": "In 2013, he transitioned to crypto, initially building various decentralised applications. In 2018, he began building a decentralised platform called THORChain under the pseudonym “Leena” along with a team of 5 engineers.",
+            "description_6": "Within 18 months of launching, THORChain reached a market value of $1 billion. In 2024, JP turned over THORChain to the community and revealed himself. Currently, it is the largest decentralised liquidity protocol in the world, with a market value of over 2$ billion and over $1 billion in deposits.",
+            "description_7": "Now, JP is working on several other projects to solve key problems in the crypto space."
+        },
+        "segment-7": {
+            "title": "JP\u2019s Core<span class='text-yellow'> Principles</span>",
+            "description": "JP recognises humanity needs to be re-activated, and the imperative to accelerate is stronger than ever before. Now is the time. The following principles guide JP's thinking.",
+            "cards": [
+                {
+                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>Simplify It!</h3>",
+                    "description": "Get to the core of every problem. Break down issues into their fundamental elements. Avoid artificial cognitive hurdles. Minimise latency, maximise bandwidth. Don't do anything that slows you down."
+                },
+                {
+                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empower Others.</h3>",
+                    "description": "Collectively we are more capable. Inspire those around you to accelerate with you. Often people don't know what they are capable of - they simply need empowerment. Coordinate through a shared vision."
+                },
+                {
+                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimistic, Always.</h3>",
+                    "description": "'I think, therefore I am'. You can manifest your future by sheer determination and positive willpower. A healthy mental state is 100x more productive than an unhealthy one. Stare down adversity with momentum."
+                },
+                {
+                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Get in the Arena!</h3>",
+                    "description": "You cannot solve the problem without first understanding the problem. You cannot understand the problem unless you are in the arena and pivoting, iterating and taking on feedback as fast as you can."
+                },
+                {
+                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Take Risk.</h3>",
+                    "description": "The universe presents us with adversity everyday. Tackle the unknown and reap the rewards or deal with the consequences. Everything is risky - navigating advserity is demonstrating your intelligence."
+                },
+                {
+                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Build in Public</h3>",
+                    "description": "Set the memes free. Avoid NDAs, Patents, Exclusive Copyright. Build in public; the good ideas flourish, the bad ideas die. We are here to learn, build, create as we upgrade Humanity's Memetic Repository."
+                }
+            ]
         }
     },
     "footer": {
@@ -84,18 +234,8 @@
                     "target": "_blank"
                 },
                 {
-                    "name": "TraitForge",
-                    "url": "https://traitforge.info",
-                    "target": "_blank"
-                },
-                {
                     "name": "ACCEL Co",
                     "url": "https://www.instagram.com/accel_co",
-                    "target": "_blank"
-                },
-                {
-                    "name": "Nextgen North",
-                    "url": "https://linktr.ee/nextgennorth",
                     "target": "_blank"
                 }
             ],
@@ -106,8 +246,13 @@
                     "target": "_blank"
                 },
                 {
-                    "name": "ARRQ",
-                    "url": "https://www.arrq.live/home",
+                    "name": "TraitForge",
+                    "url": "https://traitforge.info",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Nextgen North",
+                    "url": "https://linktr.ee/nextgennorth",
                     "target": "_blank"
                 }
             ],
@@ -121,191 +266,6 @@
                     "name": "Media & Press",
                     "url": "#explorer",
                     "target": "_self"
-                }
-            ]
-        }
-    },
-    "home": {
-        "page-title": "JPThor",
-        "header": {
-            "title": "Empowering <br> <span class='pl-header'>Adventure</span> <br>& Innovation.",
-            "subtitle": "Unlocking the Future's Potential through Exploration and Innovative Thinking."
-        },
-        "segment-1": {
-            "title": "MEET <span class='text-green'>JP THOR</span>",
-            "description": "A contemporary explorer, entrepreneur, and visionary leader. <br> <br> JP's limitless curiosity drives him to surpass traditional exploration limits. <br> <br> Driven by the ACCELERATE movement; one that embodies the blend of high-stakes adventure, cutting-edge innovation, and significant personal growth."
-        },
-        "segment-2": {
-            "title": "FOUNDER ",
-            "description": "From decentralized exchanges to secure crypto vaults and NFT-based games, JP's ventures are actively transforming industries and shaping the future of technology.",
-            "cards": [
-                {
-                    "title": "THORChain",
-                    "description": "Decentralized Exchange",
-                    "url": "https://thorchain.org",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Vultisig",
-                    "description": "Secure Crypto Vault",
-                    "url": "https://vultisig.com",
-                    "target": "_blank"
-                },
-                {
-                    "title": "TraitForge",
-                    "description": "NFT Honeypot Game",
-                    "url": "https://traitforge.info",
-                    "target": "_blank"
-                },
-                {
-                    "title": "ACCEL Co",
-                    "description": "Accelerate Movement",
-                    "url": "https://accelerateordie.org",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Nextgen North",
-                    "description": "Big Ideas For the North",
-                    "url": "https://linktr.ee/nextgennorth",
-                    "target": "_blank"
-                }
-            ]
-        },
-        "segment-3": {
-            "title": "ENTREPRENEUR",
-            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
-            "cards": [
-                {
-                    "title": "21e8 Capital",
-                    "description": "A private Australian Crypto Fund trading on macro timelines.",
-                    "url": "#",
-                    "target": "_blank"
-                },
-                {
-                    "title": "ARRQ",
-                    "description": "Ad-hoc Helicopter Hire Solutions.",
-                    "url": "#",
-                    "target": "_blank"
-                }
-            ]
-        },
-        "segment-4": {
-            "title": "EXPLORER",
-            "description": "As an adventurous entrepreneur, JP Thor undertakes remarkable journeys and groundbreaking projects. Explore his stories and insights that reflect his relentless pursuit of excellence and discovery.",
-            "cards": [
-                {
-                    "title": "Rotorhub: Australian entrepreneur signs for ACH125 and plans Poles expedition",
-                    "url": "https://www.rotorhub.com/australian-entrepreneur-signs-for-ach125-and-plans-poles-expedition/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Aston Martin's ultra-luxe chopper arrives in Australia for the first time",
-                    "url": "https://www.forbes.com.au/life/motors/aston-martins-ultra-luxe-chopper-arrives-in-australia-for-the-first-time/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Australian Entrepreneur plans Circumnavigation via Poles",
-                    "url": "https://www.australianflying.com.au/helicopters/australian-entrepreneur-plans-circumnavigation-via-poles",
-                    "target": "_blank"
-                },
-                {
-                    "title": "The first-ever owner of the ACH130 Aston Martin Edition has the ultimate voyage in mind",
-                    "url": "https://boulevard.co/post/jean-paul-thorbjornsen-aston-martin-helicopter/",
-                    "target": "_blank"
-                }
-            ]
-        },
-        "segment-7": {
-            "title": "INVESTOR",
-            "description": "JP's bright mind sees viable projects from afar, so he has invested in or consulted on several. Here are some of them.",
-            "cards": [
-                {
-                    "title": "Jettson",
-                    "description": "Pioneering EVTOL",
-                    "url": "https://jetson.com/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "air",
-                    "description": "Pushing the Envelope of Electric Aviation",
-                    "url": "https://www.airev.aero/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Thorswap",
-                    "description": "Decentralized Cross-Chain Exchange",
-                    "url": "https://thorswap.finance",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Civil X",
-                    "description": "Civil Solutions for the NT",
-                    "url": "https://civilxnt.com.au/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Thorwallet",
-                    "description": "Swap Crypto easily across chains or earn yield",
-                    "url": "https://thorwallet.org",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Session",
-                    "description": "Private Messanger. <br> Send Messages, Not Metadata",
-                    "url": "https://getsession.org/",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Trust Wallet",
-                    "description": "True crypto ownership",
-                    "url": "https://trustwallet.com",
-                    "target": "_blank"
-                },
-                {
-                    "title": "Bolt Plus",
-                    "description": "Watch. Share. Earn.",
-                    "url": "https://boltplus.tv/login",
-                    "target": "_blank"
-                }
-            ]
-        },
-        "segment-8": {
-            "title": "BIO",
-            "description_1": "JP, born on Bathurst Island, North of Darwin, was homeschooled in rural Northern territory, finishing Top 6 for the state in his final year.",
-            "description_2": "He then joined the Air Force and studied Aeronautical Engineering, graduating at the top of his year in 2009 with First Class Honours.",
-            "description_3": "After completing his pilot training – earning top course awards – he began Fighter training in 2012.",
-            "description_4": "JP’s final assignment to conclude his career as an Air Force pilot was flying bombers, with operational deployments. He ended up accumulating 2000+ flight hours and flew all over the world.",
-            "description_5": "In 2013, he transitioned to crypto. In 2017, he launched one of Australia’s biggest ICOs for a decentralised marketplace. In 2018, he handed over the project and began building a large trading platform called THORChain under the pseudonym “Leena” along with a team of 5 engineers.",
-            "description_6": "Within 18 months of launching, THORChain reached a market value of $1 billion. In 2024, JP turned over THORChain to the community and revealed himself. Currently, it is the largest decentralised trading platform in the world, with a market value of over 2$ billion and over $1 billion in deposits.",
-            "description_7": "Now, JP is working on several other projects to solve key problems in the crypto space."
-        },
-        "segment-9": {
-            "title": "JP\u2019s Core<span class='text-yellow'> Principles</span>",
-            "description": "JP Thor's entrepreneurial spirit is reflected in his diverse ventures. From navigating the crypto market to providing innovative helicopter hire solutions, his work speaks for itself; demonstrating his commitment to pushing boundaries and driving impactful change.",
-            "cards": [
-                {
-                    "title": "<h2 class='text-large'>1</h2><h3 class='my-3'>First Principles.</h3>",
-                    "description": "I believe in getting to the core of every problem. This concept, which I call first principles, is about breaking down issues into their fundamental elements. When you can no longer divide them further, it becomes easier to understand and address them. This approach is how I tackle every aspect of storytelling."
-                },
-                {
-                    "title": "<h2 class='text-large'>2</h2><h3 class='my-3'>Empowering Others.</h3>",
-                    "description": "My primary purpose is to give others a sense of self confidence to take on bigger and better opportunities. You will never know what you are capable of until you can back yourself and take risks - I help people reach their potential and work towards their purpose, whatever that may be."
-                },
-                {
-                    "title": "<h2 class='text-large'>3</h2><h3 class='my-3'>Optimists, Always.</h3>",
-                    "description": "Every challenge presents the opportunity for success, or a learning. My philosophy is one of positivity and optimism, and I stand here to change the paradigm and show others that you can manifest your future by changing your perspective and outlook."
-                },
-                {
-                    "title": "<h2 class='text-large'>4</h2><h3 class='my-3'>Accelerating Potential.</h3>",
-                    "description": "Whether It\u2019s a personal journey, a career defining moment, a fitness goal, everyone has the potential for greatness, I am here to help others define their purpose and accelerate their potential for greatness through the philosophies and experiences that have helped others reach heights."
-                },
-                {
-                    "title": "<h2 class='text-large'>5</h2><h3 class='my-3'>Innovation & Risk.</h3>",
-                    "description": "Innovation is unprecedented in its very nature, there is an inherent risk involved, a willingness to step into the unknown and reap the rewards or deal with the consequences. This, paired with a positive mental outlook can be your most powerful ally - So I always speak with conviction and positivity in the face of adversity."
-                },
-                {
-                    "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Don\u2019t Overcomplicate it.</h3>",
-                    "description": "I am here to ensure that things get done for you. While planning is important, it can only take you so far. My approach is action-oriented \u2013 I focus on taking action, sharing the results, and learning from the experience rather than endlessly planning for something that never happens."
                 }
             ]
         }
