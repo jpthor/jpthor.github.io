@@ -105,9 +105,9 @@ h1 {
     padding-inline: 0.75rem;
 }
 
-/* .navbar {
-    margin-inline: 5.5rem !important;
-} */
+#navbar {
+    height: 88px;
+}
 
 .card-cont {
     display: grid;
@@ -331,6 +331,19 @@ h1 {
 
 
 @media (max-width: 768px) {
+    .parallax {
+        height: 800px !important;
+        background-attachment: unset !important;
+    }
+
+    .top-bullet {
+        top: -250px !important;
+    }
+
+    .vertical-line {
+        top: -250px;
+    }
+
     .text-xxlarge {
         font-size: 45pt !important;
     }
@@ -895,9 +908,9 @@ h1 {
 }
 
 @media (max-width: 1024px) and (max-height:600px) {
-    .parallax {
+    /* .parallax {
         background-position-x: 0px !important;
-    }
+    } */
 }
 
 #bio p {
