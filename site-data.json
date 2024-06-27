@@ -44,87 +44,11 @@
             }
         }
     },
-    "footer": {
-        "social-links": {
-            "x": {
-                "url": "https://twitter.com/JPTHOR",
-                "target": "_blank"
-            },
-            "instagram": {
-                "url": "https://www.instagram.com/jpthor/",
-                "target": "_blank"
-            },
-            "github": {
-                "url": "https://www.github.com/jpthor",
-                "target": "_blank"
-            },
-            "tiktok": {
-                "url": "https://www.tiktok.com/jpthor",
-                "target": "_blank"
-            },
-            "youtube": {
-                "url": "https://www.youtube.com/@jpthor",
-                "target": "_blank"
-            },
-            "linkedin": {
-                "url": "https://www.linkedin.com/in/jpthor/",
-                "target": "_blank"
-            }
-        },
-        "links": {
-            "projects": [
-                {
-                    "name": "THORChain",
-                    "url": "https://thorchain.org",
-                    "target": "_blank"
-                },
-                {
-                    "name": "Vultisig",
-                    "url": "https://vultisig.com",
-                    "target": "_blank"
-                },
-                {
-                    "name": "ACCEL Co",
-                    "url": "https://www.instagram.com/accel_co",
-                    "target": "_blank"
-                }
-            ],
-            "entrepreneur": [
-                {
-                    "name": "21e8 Capital",
-                    "url": "https://21e8.capital",
-                    "target": "_blank"
-                },
-                {
-                    "name": "TraitForge",
-                    "url": "https://traitforge.info",
-                    "target": "_blank"
-                },
-                {
-                    "name": "Nextgen North",
-                    "url": "https://linktr.ee/nextgennorth",
-                    "target": "_blank"
-                }
-            ],
-            "resources": [
-                {
-                    "name": "Investments",
-                    "url": "https://21e8.capital",
-                    "target": "_blank"
-                },
-                {
-                    "name": "Media & Press",
-                    "url": "#explorer",
-                    "target": "_self"
-                }
-            ]
-        }
-    },
     "home": {
         "page-title": "JPThor",
         "header": {
-            "title": "Learn, <br> <span class='pl-header'>Move, </span> <br>& Create.",
-            "subtitle": "Accelerating Humanity's Potential through Sheer Determination and Momentum"
+            "title": "Learn, <br>Move, <br>& Create.",
+            "subtitle": "Accelerating Humanity's Potential through Sheer<br> Determination and Momentum"
         },
         "segment-1": {
             "title": "MEET <span class='text-green'>JP THOR</span>",
@@ -199,7 +123,7 @@
                 }
             ]
         },
-        "segment-7": {
+        "segment-5": {
             "title": "INVESTOR",
             "description": "'Invest in expanding Humanity's memetic output' JP allocates capital to projects that can expand the memetic envelope of humanity.",
             "cards": [
@@ -229,7 +153,7 @@
                 }
             ]
         },
-        "segment-8": {
+        "segment-6": {
             "title": "BIO",
             "description_1": "JP, born on Bathurst Island, North of Darwin, was homeschooled in rural Northern territory, finishing Top 6 for the state in his final year.",
             "description_2": "He then joined the Air Force and studied Aeronautical Engineering, graduating at the top of his year in 2009 with First Class Honours.",
@@ -239,7 +163,7 @@
             "description_6": "Within 18 months of launching, THORChain reached a market value of $1 billion. In 2024, JP turned over THORChain to the community and revealed himself. Currently, it is the largest decentralised liquidity protocol in the world, with a market value of over 2$ billion and over $1 billion in deposits.",
             "description_7": "Now, JP is working on several other projects to solve key problems in the crypto space."
         },
-        "segment-9": {
+        "segment-7": {
             "title": "JP\u2019s Core<span class='text-yellow'> Principles</span>",
             "description": "JP recognises humanity needs to be re-activated, and the imperative to accelerate is stronger than ever before. Now is the time. The following principles guide JP's thinking.",
             "cards": [
@@ -266,6 +190,82 @@
                 {
                     "title": "<h2 class='text-large'>6</h2><h3 class='my-3'>Build in Public</h3>",
                     "description": "Set the memes free. Avoid NDAs, Patents, Exclusive Copyright. Build in public; the good ideas flourish, the bad ideas die. We are here to learn, build, create as we upgrade Humanity's Memetic Repository."
+                }
+            ]
+        }
+    },
+    "footer": {
+        "social-links": {
+            "x": {
+                "url": "https://twitter.com/JPTHOR",
+                "target": "_blank"
+            },
+            "instagram": {
+                "url": "https://www.instagram.com/jpthor/",
+                "target": "_blank"
+            },
+            "github": {
+                "url": "https://www.github.com/jpthor",
+                "target": "_blank"
+            },
+            "tiktok": {
+                "url": "https://www.tiktok.com/jpthor",
+                "target": "_blank"
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/@jpthor",
+                "target": "_blank"
+            },
+            "linkedin": {
+                "url": "https://www.linkedin.com/in/jpthor/",
+                "target": "_blank"
+            }
+        },
+        "links": {
+            "projects": [
+                {
+                    "name": "THORChain",
+                    "url": "https://thorchain.org",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Vultisig",
+                    "url": "https://vultisig.com",
+                    "target": "_blank"
+                },
+                {
+                    "name": "ACCEL Co",
+                    "url": "https://www.instagram.com/accel_co",
+                    "target": "_blank"
+                }
+            ],
+            "entrepreneur": [
+                {
+                    "name": "21e8 Capital",
+                    "url": "https://21e8.capital",
+                    "target": "_blank"
+                },
+                {
+                    "name": "TraitForge",
+                    "url": "https://traitforge.info",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Nextgen North",
+                    "url": "https://linktr.ee/nextgennorth",
+                    "target": "_blank"
+                }
+            ],
+            "resources": [
+                {
+                    "name": "Investments",
+                    "url": "https://21e8.capital",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Media & Press",
+                    "url": "#explorer",
+                    "target": "_self"
                 }
             ]
         }
