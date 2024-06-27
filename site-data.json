@@ -123,7 +123,7 @@
     "home": {
         "page-title": "JPThor",
         "header": {
-            "title": "Empowering <br> <span class='pl-header'>Adventure</span> <br>& Innovation.",
+            "title": "Learn, <br> <span class='pl-header'>Move, </span> <br>& Create.",
             "subtitle": "Accelerating Humanity's Potential through Sheer Determination and Momentum"
         },
         "segment-1": {
@@ -148,7 +148,7 @@
                 },
                 {
                     "title": "ACCEL Co",
-                    "description": "Accelerate Movement",
+                    "description": "Accelerate Or Die",
                     "url": "https://accelerateordie.org",
                     "target": "_blank"
                 }

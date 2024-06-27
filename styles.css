@@ -708,11 +708,11 @@ h1 {
     width: 75%;
 }
 
-#ENTREPRENEUR .item-head {
+#ENGINEER .item-head {
     height: 5rem;
 }
 
-#ENTREPRENEUR .item-body {
+#ENGINEER .item-body {
     height: 7rem;
     overflow: hidden;
 }
