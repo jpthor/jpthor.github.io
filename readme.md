@@ -20,6 +20,7 @@ Welcome to the GitHub repository for the official JP Thor website. This site pre
 -   `fonts.ts` - Used for managing different fonts of the project
 -   `globals.scss` - Global sass styles
 
+
 ## Contributing
 
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
