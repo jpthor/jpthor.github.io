@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueblack-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueblack-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueblackitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueblackitalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuebold-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuebold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuebolditalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuebolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueheavy-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueheavy-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueheavyitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueheavyitalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuelight-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuelight-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuelightitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuelightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuemedium-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuemedium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuemediumitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuemediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueroman-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueroman-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuethin-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuethin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuethinitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneuethinitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueultralight-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueultralight-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneueultralightitalic-webfont.woff2') format('woff2'),
+        url('fonts/helveticaneueultralightitalic-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.text-small {
+    font-size: 16pt !important;
+}
+.text-14 {
+    font-size: 14px !important;
+}
+
+.text-medium {
+    font-size: 19pt !important;
+    /* font-size: calc(0.6rem + 1vw) !important */
+}
+
+.text-large {
+    font-size: 30pt !important;
+}
+
+.text-xlarge {
+    font-size: 48pt !important;
+}
+
+.text-xxlarge {
+    font-size: 73pt !important;
+    /* font-size: calc(2.2rem + 4vw) !important; */
+}
+
+.text-bold {
+    font-weight: 700;
+}

@@ -1,9 +1,0 @@
-export { bioCopy } from './Bio';
-export { engineerCopy } from './Engineer';
-export { explorerCopy } from './Explorer';
-export { founderCopy } from './Founder';
-export { headerCopy } from './Header';
-export { investorCopy } from './Investor';
-export { meetJpCopy } from './MeetJp';
-export { navbarCopy } from './NavBar';
-export { principlesCopy } from './Principles';
