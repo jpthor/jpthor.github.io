@@ -12,13 +12,13 @@ Welcome to the GitHub repository for the official JP Thor website. This site pre
 
 - `public/` - Contains static assets that can be accessed directly.
 - `src/app/` - Holds the main application code.
-    -`(pages)/` - Contains code for each page.
-    -`components/` - Individual components, representing different sections of the website.
+    - `(pages)/` - Contains code for each page.
+    - `components/` - Individual components, representing different sections of the website.
     - `copy/` - Each files represents the texts of each component used to dynamically set content of components.
-    -`fonts/` - Local font files used in this project.
-    -`shared-components/` - Common components like NavBar and Footer.
-    -`fonts.ts` - Used for managing different fonts of the project
-    -`globals.scss` - Global sass styles
+    - `fonts/` - Local font files used in this project.
+    - `shared-components/` - Common components like NavBar and Footer.
+    - `fonts.ts` - Used for managing different fonts of the project
+    - `globals.scss` - Global sass styles
 
 ## Contributing
 
