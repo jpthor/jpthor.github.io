@@ -4,7 +4,7 @@ import Image from "next/image"
 export function Media() {
     return (
         <>
-            <div id="explorer" className="section mt-300 mt-section">
+            <div id="media" className="section mt-300 mt-section">
                 <div className="w-100 pt-custom position-relative">
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 mt-lg-0 mt-3 item appear2">
@@ -27,7 +27,7 @@ export function Media() {
                             ))}
                         </div>
                     </div>
-                    <Image width={569} height={569} className="arts" src="/img/art-explorer.svg" alt="explorer" />
+                 
                 </div>
             </div>
         </>
