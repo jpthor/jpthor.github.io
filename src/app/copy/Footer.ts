@@ -49,6 +49,12 @@ export const footerCopy = {
                     target: "_blank"
                 },
                 {
+                    name: "Brand Guidelines",
+                    href: "/docs/JP Thor - Brand Guidelines.pdf",
+                    target: "_blank",
+                    download:"JP Thor - Brand Guidelines.pdf"
+                },
+                {
                     name: "Media & Press",
                     href: "#explorer",
                     target: "_self"

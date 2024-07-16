@@ -9,8 +9,8 @@ export function Founder() {
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 item appear2 mt-lg-0 mt-3">
                         <h2 className="text-xlarge text-blue text-bold">{founderCopy.title}</h2>
-                        <p className="text-small text-c9 text-narrow-height w-75-custom text-thin text-justify" >
-                            {founderCopy.description}
+                        <p className="text-small text-c9 text-narrow-height w-75-custom text-thin text-justify" dangerouslySetInnerHTML={{ __html: founderCopy.description }}>
+                            
                         </p>
 
                         <div className="card-cont mt-5">

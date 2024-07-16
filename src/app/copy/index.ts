@@ -7,3 +7,4 @@ export { investorCopy } from './Investor';
 export { meetJpCopy } from './MeetJp';
 export { navbarCopy } from './NavBar';
 export { principlesCopy } from './Principles';
+export { mediaCopy } from './Media';
