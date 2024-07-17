@@ -8,7 +8,7 @@ export function Bio() {
                 <div className="w-100 pt-custom position-relative">
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 col-lg-8">
-                        <h2 className="text-xlarge text-blue text-bold appear2">{bioCopy.title}</h2>
+                        <h2 className="text-xlarge text-yellow text-bold appear2">{bioCopy.title}</h2>
                         {bioCopy.paragraphs.map((paragraph, index) => (
                             <p key={index} className="appear2 text-thin text-justify" >
                                 {paragraph.text}

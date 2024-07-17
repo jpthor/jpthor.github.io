@@ -9,9 +9,9 @@ export function Principles() {
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 item appear2 mt-lg-0 mt-3">
                         <h2 className="text-xlarge text-white text-bold">
-                            {principlesCopy.title}<span className="text-yellow"> {principlesCopy.titleColored}</span>
+                            {principlesCopy.title}<span className="text-green"> {principlesCopy.titleColored}</span>
                         </h2>
-                        <h3 className="my-3" >{principlesCopy.description}</h3>
+                        <h3 className="my-3 text-thin" >{principlesCopy.description}</h3>
                         <div className="card-cont mt-5">
                             {principlesCopy.cards.map((card, index) => (
                                 <div key={index} className="card-item item appear2 text-center text-lg-start position-relative">

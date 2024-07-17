@@ -1,6 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+.text-xsmall {
+    font-size: 14pt !important;
+}
+
 .text-small {
     font-size: 16pt !important;
 }
@@ -167,6 +171,13 @@ h1 {
     gap: 25px;
 }
 
+.card-cont-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+
 .arts {
     position: absolute;
     right: 0px;
@@ -323,6 +334,13 @@ h1 {
         gap: 25px;
     }
 
+    .card-cont-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+
+    }
+
     #header-logo {
         width: 200px;
         margin: auto;
@@ -435,6 +453,11 @@ h1 {
         gap: 20px;
     }
 
+    .card-cont-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 
 
     .ex-text {
@@ -839,7 +862,11 @@ h1 {
         grid-template-rows: 1fr;
         gap: 20px;
     }
-
+    .card-cont-media {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 20px;
+    }
     .w-75-custom {
         width: 100% !important;
     }
@@ -883,7 +910,11 @@ h1 {
         grid-template-rows: 1fr;
         gap: 20px;
     }
-
+    .card-cont-media {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 20px;
+    }
     .w-75-custom {
         width: 100% !important;
     }
@@ -931,7 +962,7 @@ h1 {
 }
 
 @media (min-width:769px) and (max-width:1140px) {
-   
+
 
     #ENTREPRENEUR .item-head,
     #ENTREPRENEUR .item-body {

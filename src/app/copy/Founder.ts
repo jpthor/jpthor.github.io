@@ -1,6 +1,6 @@
 export const founderCopy = {
     title: "FOUNDER",
-    description: `"Plan to succeed, expect to fail". Nothing is more meaningful than creating nothing from something. Create, Create, Create.`,
+    description: `"Strive for success, brace for failure.” <br/> The greatest value is in creating something from nothing.<br/> Never stop creating, always innovate. `,
     cards: [
         {
             title: "THORChain",

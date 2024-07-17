@@ -1,6 +1,6 @@
 export const explorerCopy = {
     title: "EXPLORER",
-    description: `"Aspire to be high-agency, high-output". Explore and learn relentlessly; no challenge is insurmountable. The universe is there to be explored.`,
+    description: `Strive for maximum agency and output.<br/> Pursue exploration and learning relentlessly; no challenge is too daunting. <br/> The universe beckons. `,
     cards: [
         {
             title: "Rotorhub: Australian entrepreneur signs for ACH125 and plans Poles expedition",

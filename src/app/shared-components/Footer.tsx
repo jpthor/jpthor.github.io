@@ -60,7 +60,7 @@ export function Footer() {
                                 </li>
                                 {footerCopy.links[2].links.map((link, index) => (
                                     <li key={index}>
-                                        <a href={link.href} target={link.target} className="nav-link text-small text-thin my-2">
+                                        <a href={link.href} target={link.target} className="nav-link text-small text-thin my-2" download={link.download}>
                                             {link.name}
                                         </a>
                                     </li>

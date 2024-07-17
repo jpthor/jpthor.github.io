@@ -22,6 +22,10 @@ export const navbarCopy = {
             href: "#INVESTOR"
         },
         {
+            title: "JP MEDIA",
+            href: "#media"
+        },
+        {
             title: "BIO",
             href: "#bio"
         },

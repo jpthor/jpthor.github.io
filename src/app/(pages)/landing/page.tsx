@@ -9,6 +9,7 @@ import { Investor } from "@/app/components/Investor";
 import { Bio } from "@/app/components/Bio";
 import { Principles } from "@/app/components/Principles";
 import $ from "jquery"
+import { Media } from "@/app/components/Media";
 
 export default function Landing() {
     useEffect(() => {
@@ -99,6 +100,7 @@ export default function Landing() {
                         <Engineer />
                         <Explorer />
                         <Investor />
+                        <Media />
                         <Bio />
                         <Principles />
                     </div >
