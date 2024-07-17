@@ -11,7 +11,7 @@ export function Principles() {
                         <h2 className="text-xlarge text-white text-bold">
                             {principlesCopy.title}<span className="text-green"> {principlesCopy.titleColored}</span>
                         </h2>
-                        <h3 className="my-3 text-thin" >{principlesCopy.description}</h3>
+                        <div className="text-small text-c9 text-narrow-height w-75-custom text-thin text-justify" >{principlesCopy.description}</div>
                         <div className="card-cont mt-5">
                             {principlesCopy.cards.map((card, index) => (
                                 <div key={index} className="card-item item appear2 text-center text-lg-start position-relative">
