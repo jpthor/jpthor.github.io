@@ -52,12 +52,32 @@ export const footerCopy = {
                     name: "Brand Guidelines",
                     href: "/docs/JP Thor - Brand Guidelines.pdf",
                     target: "_blank",
-                    download:"JP Thor - Brand Guidelines.pdf"
+                    download: "JP Thor - Brand Guidelines.pdf"
                 },
                 {
                     name: "Media & Press",
                     href: "#explorer",
                     target: "_self"
+                }
+            ]
+        },
+        {
+            title: "Links",
+            links: [
+                {
+                    name: "ACCEL",
+                    href: "https://accel.co",
+                    target: "_blank"
+                },
+                {
+                    name: "The ACCEL Tunnel",
+                    href: "https://accel.io/",
+                    target: "_blank",
+                },
+                {
+                    name: "Space Brains",
+                    href: "https://spacebrains.io/",
+                    target: "_blank"
                 }
             ]
         }

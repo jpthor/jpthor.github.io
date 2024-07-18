@@ -56,7 +56,7 @@ export function OffcanvasProvider({
 
     return (
         <AppContext.Provider value={{ isOpen, handleOpen, handleClose, randomId: "new" }}>
-            <div className="simple-offcanvas-component">{children}</div>
+            <div className="simple-offcanvas-component d-flex align-items-center">{children}</div>
         </AppContext.Provider>
     )
 }
