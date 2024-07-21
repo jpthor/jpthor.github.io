@@ -9,7 +9,7 @@ export function Principles() {
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 item appear2 mt-lg-0 mt-3">
                         <h2 className="text-xlarge text-white text-bold">
-                            {principlesCopy.title}<span className="text-green"> {principlesCopy.titleColored}</span>
+                            {principlesCopy.title} {principlesCopy.titleColored}
                         </h2>
                         <div className="text-small text-c9 text-narrow-height w-75-custom text-thin text-justify" >{principlesCopy.description}</div>
                         <div className="card-cont mt-5">
