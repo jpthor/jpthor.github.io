@@ -1,6 +1,5 @@
 export const principlesCopy = {
-    title: "JP'S CORE",
-    titleColored: "PRINCIPLES",
+    title: "JP'S CORE PRINCIPLES",
     description: "JP believes humanity needs reactivation, and the urgency to accelerate has never been greater. Here are the principles that guide his approach.",
     cards: [
         {
