@@ -716,6 +716,7 @@ h1 {
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
 }
 
 .mt-sec-one {
@@ -806,6 +807,15 @@ h1 {
 }
 
 
+@media (min-width:1024px) {
+    #meet p {
+        padding-right: 100px;
+    }
+
+    #meet .item {
+        margin-top: 200px;
+    }
+}
 
 @media (min-width:320px) and (max-width:400px) {
     .parallax {
@@ -862,11 +872,13 @@ h1 {
         grid-template-rows: 1fr;
         gap: 20px;
     }
+
     .card-cont-media {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         gap: 20px;
     }
+
     .w-75-custom {
         width: 100% !important;
     }
@@ -910,11 +922,13 @@ h1 {
         grid-template-rows: 1fr;
         gap: 20px;
     }
+
     .card-cont-media {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         gap: 20px;
     }
+
     .w-75-custom {
         width: 100% !important;
     }

@@ -1,36 +1,35 @@
 export const principlesCopy = {
-    title: "JP’s Core",
-    titleColored: "Principles",
-    description: "JP recognises humanity needs to be re-activated, and the imperative to accelerate is stronger than ever before. Now is the time. The following principles guide JP's thinking.",
+    title: "JP'S CORE PRINCIPLES",
+    description: "JP believes humanity needs reactivation, and the urgency to accelerate has never been greater. Here are the principles that guide his approach.",
     cards: [
         {
             number: 1,
-            title: "Simplify It!",
-            description: "Get to the core of every problem. Break down issues into their fundamental elements. Avoid artificial cognitive hurdles. Minimise latency, maximise bandwidth. Don't do anything that slows you down.",
+            title: "Simplify The Complex.",
+            description: "Focus on the core of each problem. Break down issues to their basics. Avoid unnecessary complexities. Minimize delays, maximize efficiency. Avoid anything that hinders progress",
             image: "/img/principles-1.png"
         },
         {
             number: 2,
-            title: "Empower Others.",
-            description: "Collectively we are more capable. Inspire those around you to accelerate with you. Often people don't know what they are capable of - they simply need empowerment. Coordinate through a shared vision.",
+            title: "Empower & Inspire.",
+            description: "United, we are powerful. Inspire your peers to grow with you. Many don't realize their potential until empowerment. Coordinate with a unified vision.",
             image: "/img/principles-2.png"
         },
         {
             number: 3,
-            title: "Optimistic, Always.",
-            description: "'I think, therefore I am'. You can manifest your future by sheer determination and positive willpower. A healthy mental state is 100x more productive than an unhealthy one. Stare down adversity with momentum.",
+            title: "Positivity Prevails.",
+            description: "'I think, therefore I am'. Forge your future with sheer determination and positivity. A healthy mindset enhances productivity. Confront adversity with momentum.",
             image: "/img/principles-3.png"
         },
         {
             number: 4,
             title: "Get in the Arena!",
-            description: "You cannot solve the problem without first understanding the problem. You cannot understand the problem unless you are in the arena and pivoting, iterating and taking on feedback as fast as you can.",
+            description: "Problem-solving requires understanding; active involvement is key. Pivot, iterate, and adapt to feedback as quickly as possible.",
             image: "/img/principles-4.png"
         },
         {
             number: 5,
-            title: "Take Risk.",
-            description: "The universe presents us with adversity everyday. Tackle the unknown and reap the rewards or deal with the consequences. Everything is risky - navigating advserity is demonstrating your intelligence.",
+            title: "Take the Leap.",
+            description: "Adversity is a daily occurrence. Embrace the unknown and accept the outcomes. Risk-taking and overcoming adversity are ways of  demonstrating intelligence.",
             image: "/img/principles-5.png"
         },
         {
