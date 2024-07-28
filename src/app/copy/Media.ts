@@ -50,6 +50,20 @@ export const mediaCopy = {
             alt: "Maya Protocol",
             link: "https://x.com/maya_protocol/status/1777350830435307923?s=46",
             target: "_blank"
+        },
+        {
+            title: "First Cybertruck Bought with Crypto Debuts at Bitcoin 2024",
+            image: "/img/media/img-First-Cybertruck.png",
+            alt: "First Cybertruck Bought with Crypto",
+            link: "https://alexablockchain.com/cybertruck-bitcoin-2024",
+            target: "_blank"
+        },
+        {
+            title: "Using Memes to Upgrade & Accelerate Humanity | EP 80",
+            image: "/img/media/img-Memes-to-Upgrade.jpg",
+            alt: "Memes to Upgrade & Accelerate Humanity",
+            link: "https://youtu.be/xEP9JcYzx-M?si=kPVOKDPbEQi7iRFK",
+            target: "_blank"
         }
     ]
 }
