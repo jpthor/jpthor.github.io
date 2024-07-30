@@ -30,13 +30,13 @@ export const engineerCopy = {
         {
             title: "THORChain.net",
             description: "Decentralised Wallet Platform",
-            link: "THORChain.net",
+            link: "https://THORChain.net",
             image: "/img/logo-THORChain.net.svg"
         },
         {
             title: "thorchain.network",
             description: "Decentralised Wallet Platform",
-            link: "thorchain.network",
+            link: "https://thorchain.network",
             image: "/img/logo-thorchain.network.svg"
         }
     ]
