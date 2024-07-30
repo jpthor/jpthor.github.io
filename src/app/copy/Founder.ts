@@ -22,6 +22,27 @@ export const founderCopy = {
             link: "https://accelerateordie.org/index.html",
             image: "/img/logo-accel.svg",
             target: "_blank"
+        },
+        {
+            title: "Thorswap",
+            description: "Decentralized Cross-Chain Exchange",
+            link: "https://www.thorswap.finance/",
+            image: "/img/logo-f-Thorswap.svg",
+            target: "_blank"
+        },
+        {
+            title: "Asgardex",
+            description: "Accelerate Or Die",
+            link: "https://www.asgardex.com",
+            image: "/img/logo-Asgardex.svg",
+            target: "_blank"
+        },
+        {
+            title: "Weweswap",
+            description: "User-Friendly DeFi Swaps",
+            link: "https://www.weweswap.com",
+            image: "/img/logo-Weweswap.svg",
+            target: "_blank"
         }
     ]
 };
