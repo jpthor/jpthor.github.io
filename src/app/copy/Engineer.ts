@@ -20,6 +20,24 @@ export const engineerCopy = {
             description: "Decentralised Wallet Platform",
             link: "https://thorwallet.org/",
             image: "/img/logo-thorwallet.svg"
+        },
+        {
+            title: "XChainJS",
+            description: "Decentralised Wallet Platform",
+            link: "https://xchainjs.org/",
+            image: "/img/logo-XChainJS.svg"
+        },
+        {
+            title: "THORChain.net",
+            description: "Decentralised Wallet Platform",
+            link: "THORChain.net",
+            image: "/img/logo-THORChain.net.svg"
+        },
+        {
+            title: "thorchain.network",
+            description: "Decentralised Wallet Platform",
+            link: "thorchain.network",
+            image: "/img/logo-thorchain.network.svg"
         }
     ]
 };
