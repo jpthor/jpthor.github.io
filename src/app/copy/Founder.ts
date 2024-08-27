@@ -17,10 +17,10 @@ export const founderCopy = {
             target: "_blank"
         },
         {
-            title: "ACCEL Co",
+            title: "ACEL Co",
             description: "Accelerate Or Die",
-            link: "https://accelerateordie.org/index.html",
-            image: "/img/logo-accel.svg",
+            link: "https://acel.org",
+            image: "/img/logo-acel.svg",
             target: "_blank"
         },
         {
@@ -38,7 +38,7 @@ export const founderCopy = {
             target: "_blank"
         },
         {
-            title: "Weweswap",
+            title: "WEWESwap",
             description: "User-Friendly DeFi Swaps",
             link: "https://www.weweswap.com",
             image: "/img/logo-Weweswap.svg",

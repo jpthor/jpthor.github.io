@@ -14,8 +14,8 @@ export const footerCopy = {
                     target: "_blank"
                 },
                 {
-                    name: "Accel Co",
-                    href: "https://www.instagram.com/accel_co/",
+                    name: "Acel Co",
+                    href: "https://www.acel.org",
                     target: "_blank"
                 }
             ]
@@ -65,13 +65,13 @@ export const footerCopy = {
             title: "Links",
             links: [
                 {
-                    name: "ACCEL",
-                    href: "https://accel.co",
+                    name: "ACEL",
+                    href: "https://acel.org",
                     target: "_blank"
                 },
                 {
-                    name: "The ACCEL Tunnel",
-                    href: "https://accel.io/",
+                    name: "The ACEL Tunnel",
+                    href: "https://acel.space/",
                     target: "_blank",
                 },
                 {
