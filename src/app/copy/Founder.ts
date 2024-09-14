@@ -17,7 +17,7 @@ export const founderCopy = {
             target: "_blank"
         },
         {
-            title: "ACEL Co",
+            title: "ACEL",
             description: "Accelerate Or Die",
             link: "https://acel.org",
             image: "/img/logo-acel.svg",
@@ -32,7 +32,7 @@ export const founderCopy = {
         },
         {
             title: "Asgardex",
-            description: "Accelerate Or Die",
+            description: "Native Asset Cross-Chain Swaps",
             link: "https://www.asgardex.com",
             image: "/img/logo-Asgardex.svg",
             target: "_blank"
