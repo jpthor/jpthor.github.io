@@ -17,13 +17,6 @@ export const investorCopy = {
             target: "_blank"
         },
         {
-            title: "THORSwap",
-            description: "Decentralized Cross-Chain Interface",
-            link: "https://thorswap.finance",
-            image: "/img/logo-thorswap.svg",
-            target: "_blank"
-        },
-        {
             title: "Session",
             description: `Private Messanger. Send Messages, Not Metadata`,
             link: "https://getsession.org/",
