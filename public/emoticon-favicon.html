@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Emoticon Favicon Generator</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000;
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    
+    #favicon-canvas {
+      background: #000;
+      display: block;
+    }
+    
+    .controls {
+      position: fixed;
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    
+    button {
+      padding: 8px 15px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    select, input {
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="favicon-canvas" width="64" height="64"></canvas>
+  
+  <div class="controls">
+    <label for="emoticon-select">Choose an emoticon:</label>
+    <select id="emoticon-select">
+      <option value="⚡">⚡ Lightning (Energy/Power)</option>
+      <option value="🚀">🚀 Rocket (Innovation/Launch)</option>
+      <option value="💡">💡 Light Bulb (Ideas/Innovation)</option>
+      <option value="🔥">🔥 Fire (Passion/Energy)</option>
+      <option value="🌊">🌊 Wave (Flow/Movement)</option>
+      <option value="⚙️">⚙️ Gear (Engineering/Building)</option>
+      <option value="🧠">🧠 Brain (Intelligence/Knowledge)</option>
+      <option value="🔗">🔗 Chain Link (Connection/Blockchain)</option>
+      <option value="🌟">🌟 Star (Excellence/Achievement)</option>
+      <option value="🌐">🌐 Globe (Global Impact)</option>
+    </select>
+    
+    <label for="bg-color">Background Color:</label>
+    <input type="color" id="bg-color" value="#000000">
+    
+    <button id="download-btn">Download Favicon</button>
+  </div>
+  
+  <script>
+    const canvas = document.getElementById('favicon-canvas');
+    const ctx = canvas.getContext('2d');
+    const emoticonSelect = document.getElementById('emoticon-select');
+    const bgColorInput = document.getElementById('bg-color');
+    const downloadBtn = document.getElementById('download-btn');
+    
+    function drawEmoticon() {
+      const emoticon = emoticonSelect.value;
+      const bgColor = bgColorInput.value;
+      
+      // Clear canvas
+      ctx.fillStyle = bgColor;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw emoticon
+      ctx.font = '40px Arial';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#ffffff';
+      ctx.fillText(emoticon, canvas.width / 2, canvas.height / 2);
+      
+      // Update favicon in browser for preview
+      const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+      link.rel = 'icon';
+      link.href = canvas.toDataURL('image/png');
+      document.head.appendChild(link);
+    }
+    
+    // Download functionality
+    downloadBtn.addEventListener('click', () => {
+      const link = document.createElement('a');
+      link.download = 'favicon.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    });
+    
+    // Update when selection changes
+    emoticonSelect.addEventListener('change', drawEmoticon);
+    bgColorInput.addEventListener('input', drawEmoticon);
+    
+    // Initial draw
+    drawEmoticon();
+  </script>
+</body>
+</html>

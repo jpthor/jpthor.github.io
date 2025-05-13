@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: "JPThor Website",
   keywords: ['JPThor'],
   authors: [{ name: 'JPThor' }, { name: 'JPThor', url: 'jpthor.com' }],
+  appleWebApp: {
+    title: 'JPThor',
+    statusBarStyle: 'black-translucent',
+    startupImage: '/img/jp-favicon.ico',
+  },
   openGraph: {
     siteName: 'JPThor',
     url: 'https://jpthor.com',
@@ -24,18 +29,9 @@ export const metadata: Metadata = {
     images: "https://jpthor.com/img/jpthor-og-thumbnail-min.png",
   },
   icons: {
-    icon: [
-      {
-        media: '(prefers-color-scheme: light)',
-        url: 'favicon-light.svg',
-        href: 'favicon-light.svg',
-      },
-      {
-        media: '(prefers-color-scheme: dark)',
-        url: 'favicon-light.svg',
-        href: 'favicon-dark.svg',
-      },
-    ],
+    icon: '/jp-favicon.ico',
+    shortcut: '/jp-favicon.ico',
+    apple: '/img/jp-favicon.ico',
   },
 
 };
