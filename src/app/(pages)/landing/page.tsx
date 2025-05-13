@@ -1,112 +1,159 @@
 "use client";
-import { useEffect, useState } from "react";
-import { Founder } from "@/app/components/Founder";
+import { useEffect, useState, Suspense } from "react";
+import dynamic from "next/dynamic";
 import { Header } from "@/app/components/Header";
-import { MeetJP } from "@/app/components/MeetJP";
-import { Engineer } from "@/app/components/Engineer";
-import { Explorer } from "@/app/components/Explorer";
-import { Investor } from "@/app/components/Investor";
-import { Bio } from "@/app/components/Bio";
-import { Principles } from "@/app/components/Principles";
-import $ from "jquery"
-import { Media } from "@/app/components/Media";
+
+// Lazy load components for better performance
+const MeetJP = dynamic(() => 
+    import("@/app/components/MeetJP").then(mod => ({ default: mod.MeetJP })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div>
+});
+
+const Founder = dynamic(() => 
+    import("@/app/components/Founder").then(mod => ({ default: mod.Founder })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Engineer = dynamic(() => 
+    import("@/app/components/Engineer").then(mod => ({ default: mod.Engineer })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Explorer = dynamic(() => 
+    import("@/app/components/Explorer").then(mod => ({ default: mod.Explorer })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Investor = dynamic(() => 
+    import("@/app/components/Investor").then(mod => ({ default: mod.Investor })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Media = dynamic(() => 
+    import("@/app/components/Media").then(mod => ({ default: mod.Media })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Bio = dynamic(() => 
+    import("@/app/components/Bio").then(mod => ({ default: mod.Bio })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
+
+const Principles = dynamic(() => 
+    import("@/app/components/Principles").then(mod => ({ default: mod.Principles })), { 
+    ssr: true,
+    loading: () => <div className="py-4">Loading...</div> 
+});
 
 export default function Landing() {
+    // Track if page is mounted
+    const [isMounted, setIsMounted] = useState(false);
+    
     useEffect(() => {
-        const loadScript = (src: string) => {
-            return new Promise<void>((resolve, reject) => {
-                const script = document.createElement('script');
-                script.src = src;
-                script.async = true;
-                script.onload = () => resolve();
-                script.onerror = () => reject(new Error(`Failed to load script ${src}`));
-                document.body.appendChild(script);
+        // Mark component as mounted
+        setIsMounted(true);
+        
+        // Use a single IntersectionObserver for better performance
+        const appearElements = document.querySelectorAll('.appear2, .appear3');
+        
+        // Handle intersection
+        const handleIntersection = (entries: IntersectionObserverEntry[]) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('inview2');
+                } else {
+                    entry.target.classList.remove('inview2');
+                }
             });
         };
-
-        const loadScripts = async () => {
-            try {
-                await loadScript('https://code.jquery.com/jquery-3.6.0.min.js');
-                await loadScript('../lib/fadescroll.js');
-
-
-                const items = document.querySelectorAll('.appear2');
-                const itemsAppear = document.querySelectorAll('.appear3');
-                const active = function (entries: any) {
-                    entries.forEach((entry: any) => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('inview2');
-                        } else {
-                            entry.target.classList.remove('inview2');
-                        }
-                    });
-                }
-                const io2 = new IntersectionObserver(active);
-                for (let i = 0; i < items.length; i++) {
-                    io2.observe(items[i]);
-                }
-
-
-                // appear
-                const active2 = function (entries: any) {
-                    entries.forEach((entry: any) => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('inview2');
-                        } else {
-                            entry.target.classList.remove('inview2');
-                        }
-                    });
-                }
-                const io3 = new IntersectionObserver(active2);
-                for (let i = 0; i < itemsAppear.length; i++) {
-                    io2.observe(itemsAppear[i]);
-                }
-
-                // scroller
-                $(window).scroll(function () {
-                    const menu = document.querySelector("#menu");
-                    if (menu === null) {
-                        return;
-                    }
-                    if (window.scrollY > 300) {
-                        if (!menu.classList.contains('fixed-top')) {
-                            menu.classList.add('fixed-top');
-                        }
-                    } else {
-                        if (menu.classList.contains('fixed-top')) {
-                            menu.classList.remove('fixed-top');
-                        }
-                    }
-                });
-            } catch (error) {
-                console.error(error);
+        
+        // Create a single observer for all elements
+        const observer = new IntersectionObserver(handleIntersection, {
+            threshold: 0.1,
+            rootMargin: '0px'
+        });
+        
+        // Observe all elements
+        appearElements.forEach(element => {
+            observer.observe(element);
+        });
+        
+        // Handle scroll without jQuery
+        const handleScroll = () => {
+            const menu = document.querySelector("#menu");
+            if (!menu) return;
+            
+            if (window.scrollY > 300) {
+                menu.classList.add('fixed-top');
+            } else {
+                menu.classList.remove('fixed-top');
             }
         };
-
-        loadScripts();
+        
+        // Add scroll listener
+        window.addEventListener('scroll', handleScroll);
+        
+        // Load any necessary scripts efficiently
+        const loadFadeScroll = document.createElement('script');
+        loadFadeScroll.src = '../lib/fadescroll.js';
+        loadFadeScroll.defer = true; // Use defer instead of async for non-critical scripts
+        document.body.appendChild(loadFadeScroll);
+        
+        // Cleanup function
+        return () => {
+            observer.disconnect();
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
     return (
         <>
-            {
-                <>
-                    <Header />
-                    <div className="container mt-lg-high">
-                        <div className="vertical-line"></div>
-                        <div className="section" style={{ marginTop: "-120px" }}>
-                            <div className="bullet top-bullet" style={{ top: "-100px" }}></div>
-                        </div>
-                        <MeetJP />
-                        <Founder />
-                        <Engineer />
-                        <Explorer />
-                        <Investor />
-                        <Media />
-                        <Bio />
-                        <Principles />
-                    </div >
-                </>
-            }
+            <Header />
+            <div className="container mt-lg-high">
+                <div className="vertical-line"></div>
+                <div className="section" style={{ marginTop: "-120px" }}>
+                    <div className="bullet top-bullet" style={{ top: "-100px" }}></div>
+                </div>
+                
+                {/* Wrap components in Suspense for better loading performance */}
+                <Suspense fallback={<div className="py-5">Loading profile...</div>}>
+                    <MeetJP />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading founder info...</div>}>
+                    <Founder />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Engineer />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Explorer />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Investor />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Media />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Bio />
+                </Suspense>
+                
+                <Suspense fallback={<div className="py-5">Loading section...</div>}>
+                    <Principles />
+                </Suspense>
+            </div>
         </>
-
     )
 }

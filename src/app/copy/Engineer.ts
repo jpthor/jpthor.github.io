@@ -4,22 +4,11 @@ export const engineerCopy = {
 `,
     cards: [
         {
-            title: "Pivotal-BoltPlus",
-            description: "A creator-platform powered by a distributed ledger and on-chain incentives.",
-            link: "https://boltplus.tv/login",
-            image: "/img/logo-bolt.svg"
-        },
-        {
-            title: "TraitForge",
-            description: "NFT Honeypot Game",
-            link: "https://traitforge.info/",
-            image: "/img/logo-traitforge.svg"
-        },
-        {
-            title: "THORWallet",
-            description: "Decentralised Wallet Platform",
-            link: "https://thorwallet.org/",
-            image: "/img/logo-thorwallet.svg"
+            title: "Asgardex",
+            description: "Native Asset Cross-Chain Swaps",
+            link: "https://www.asgardex.com",
+            image: "/img/logo-Asgardex.svg",
+            target: "_blank"
         },
         {
             title: "XChainJS",
@@ -32,12 +21,6 @@ export const engineerCopy = {
             description: "Decentralised Wallet Platform",
             link: "https://THORChain.net",
             image: "/img/logo-THORChain.net.svg"
-        },
-        {
-            title: "thorchain.network",
-            description: "Decentralised Wallet Platform",
-            link: "https://thorchain.network",
-            image: "/img/logo-thorchain.network.svg"
         }
     ]
 };
