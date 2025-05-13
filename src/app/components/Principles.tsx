@@ -4,7 +4,7 @@ import Image from "next/image";
 export function Principles() {
     return (
         <>
-            <div className="section mt-300 mt-section" id="Principles">
+            <div className="section" id="Principles" style={{marginTop: '50px'}}>
                 <div className="w-100 pt-custom position-relative">
                     <div className="bullet" style={{ top: "120px" }}></div>
                     <div className="ps-0 ps-lg-5 item appear2 mt-lg-0 mt-3">

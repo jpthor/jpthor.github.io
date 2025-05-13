@@ -2,6 +2,7 @@
 import { useEffect, useState, Suspense } from "react";
 import dynamic from "next/dynamic";
 import { Header } from "@/app/components/Header";
+import { Principles } from "@/app/components/Principles";
 
 // Lazy load components for better performance
 const MeetJP = dynamic(() => 
@@ -46,11 +47,7 @@ const Bio = dynamic(() =>
     loading: () => <div className="py-4">Loading...</div> 
 });
 
-const Principles = dynamic(() => 
-    import("@/app/components/Principles").then(mod => ({ default: mod.Principles })), { 
-    ssr: true,
-    loading: () => <div className="py-4">Loading...</div> 
-});
+// Dynamic import removed, using direct import instead
 
 export default function Landing() {
     // Track if page is mounted
@@ -100,9 +97,9 @@ export default function Landing() {
         // Add scroll listener
         window.addEventListener('scroll', handleScroll);
         
-        // Load any necessary scripts efficiently
+        // Load the vanilla JS version of the fadescroll script (no jQuery dependency)
         const loadFadeScroll = document.createElement('script');
-        loadFadeScroll.src = '../lib/fadescroll.js';
+        loadFadeScroll.src = '../lib/fadescroll-vanilla.js';
         loadFadeScroll.defer = true; // Use defer instead of async for non-critical scripts
         document.body.appendChild(loadFadeScroll);
         

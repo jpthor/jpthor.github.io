@@ -29,7 +29,7 @@ export const principlesCopy = {
         {
             number: 5,
             title: "Take the Leap.",
-            description: "Adversity is a daily occurrence. Embrace the unknown and accept the outcomes. Risk-taking and overcoming adversity are ways of  demonstrating intelligence.",
+            description: "Adversity is a daily occurrence. Embrace the unknown and accept the outcomes. Risk-taking and overcoming adversity are ways of demonstrating intelligence.",
             image: "/img/principles-5.png"
         },
         {
@@ -37,7 +37,6 @@ export const principlesCopy = {
             title: "Build in Public.",
             description: "Set the memes free. Avoid NDAs, Patents, Exclusive Copyright. Build in public; the good ideas flourish, the bad ideas die. We are here to learn, build, create as we upgrade Humanity's Memetic Repository.",
             image: "/img/principles-6.png"
-        },
-
+        }
     ]
 };

@@ -20,7 +20,7 @@ export const bioCopy = {
             text: "Within 18 months of launching, THORChain reached a market value of $1 billion. Currently, it is the world's largest decentralized liquidity protocol, with a lifetime volume over $100bn."
         },
         {
-            text: "Now, JP is working on several other projects to solve key problems in the crypto space."
+            text: "Now, JP is working on several other projects to solve key problems in the crypto space. He is also passionate about motivating others to solve problems through technology."
         }
     ]
 };
