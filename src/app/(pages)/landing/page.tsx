@@ -57,30 +57,7 @@ export default function Landing() {
         // Mark component as mounted
         setIsMounted(true);
         
-        // Use a single IntersectionObserver for better performance
-        const appearElements = document.querySelectorAll('.appear2, .appear3');
-        
-        // Handle intersection
-        const handleIntersection = (entries: IntersectionObserverEntry[]) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('inview2');
-                } else {
-                    entry.target.classList.remove('inview2');
-                }
-            });
-        };
-        
-        // Create a single observer for all elements
-        const observer = new IntersectionObserver(handleIntersection, {
-            threshold: 0.1,
-            rootMargin: '0px'
-        });
-        
-        // Observe all elements
-        appearElements.forEach(element => {
-            observer.observe(element);
-        });
+
         
         // Handle scroll without jQuery
         const handleScroll = () => {
@@ -97,15 +74,10 @@ export default function Landing() {
         // Add scroll listener
         window.addEventListener('scroll', handleScroll);
         
-        // Load the vanilla JS version of the fadescroll script (no jQuery dependency)
-        const loadFadeScroll = document.createElement('script');
-        loadFadeScroll.src = '../lib/fadescroll-vanilla.js';
-        loadFadeScroll.defer = true; // Use defer instead of async for non-critical scripts
-        document.body.appendChild(loadFadeScroll);
+
         
         // Cleanup function
         return () => {
-            observer.disconnect();
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);

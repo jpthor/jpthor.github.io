@@ -192,31 +192,9 @@ h1 {
     transform: translateX(60%);
     top: 20%;
     z-index: -1;
-    animation: moveUpDown 15s infinite;
 }
 
-@keyframes moveUpDown {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    25% {
-        transform: rotate(10deg);
-    }
-
-    50% {
-        transform: rotate(10deg);
-        transform: translateX(70%)
-    }
-
-    75% {
-        transform: rotate(-10deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
-}
 
 
 .margin-line {
@@ -370,7 +348,6 @@ h1 {
 
     .arts-bio {
         transform: translateX(0) !important;
-        animation: none !important;
     }
 
 
@@ -477,7 +454,6 @@ h1 {
 
     .arts-bio {
         transform: translateX(0) !important;
-        animation: none !important;
     }
 
 }
@@ -598,71 +574,9 @@ h1 {
 
 
 
-/* css animate */
+/* No animations */
 .fade-effect {
-    visibility: hidden;
-}
-
-@keyframes fade {
-    0% {
-        opacity: 0;
-        visibility: hidden;
-        transform: scale(0);
-    }
-
-    100% {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1);
-    }
-}
-
-@keyframes fade-top-active {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
-}
-
-@keyframes fade-right-active {
-    0% {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0%);
-        opacity: 1;
-    }
-}
-
-@keyframes fade-bottom-active {
-    0% {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
-}
-
-@keyframes fade-left-active {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0%);
-        opacity: 1;
-    }
+    visibility: visible;
 }
 
 
@@ -693,7 +607,7 @@ h1 {
 
     background-image: url("../../public/img/jpthor-header-dark.png");
     min-height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -730,36 +644,22 @@ h1 {
 }
 
 
-.appear2.inview2 {
-    visibility: visible;
-    transform: none;
-    opacity: 1;
-}
-
 .appear2 {
-    -webkit-transition: all 1s;
-    transition: all 1s;
-    visibility: hidden;
-    -webkit-transform: translateY(200px);
-    transform: translateY(200px);
-    opacity: 0;
-
-}
-
-.appear3.inview2 {
+    -webkit-transition: none;
+    transition: none;
     visibility: visible;
-    transform: none;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
     opacity: 1;
 }
 
 .appear3 {
-    -webkit-transition: all 1s;
-    transition: all 1s;
-    visibility: hidden;
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-    opacity: 0;
-
+    -webkit-transition: none;
+    transition: none;
+    visibility: visible;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 .appear3.inview2 {

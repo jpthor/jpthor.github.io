@@ -8,10 +8,10 @@ export function Header() {
             <header className="header mb-2">
                 <div className="container">
                     <NavBar />
-                    <h1 className="text-xxlarge text-uppercase fade-effect" fade-time="2" fade-direction="left" >
+                    <h1 className="text-xxlarge text-uppercase">
                         {headerCopy.title_1} <br />  {headerCopy.title_2} <br /> {headerCopy.title_3}
                     </h1>
-                    <div fade-time="3" fade-direction="left" className="text-medium mt-4 fade-effect" >
+                    <div className="text-medium mt-4">
                         {headerCopy.subtitle_1} <br /> {headerCopy.subtitle_2}
                     </div>
                 </div>
