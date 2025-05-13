@@ -8,11 +8,13 @@ if (process.env.ANALYZE === 'true') {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable image optimization
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
-  },
+  // Enable static exports for GitHub Pages
+  output: 'export',
+  // Set the base path if your site is in a subdomain
+  // basePath: '',
+  // Required for GitHub Pages to work with Next.js
+  distDir: 'out',
+
   // Enable React strict mode for better performance detection
   reactStrictMode: true,
   // Improve production build performance
@@ -33,8 +35,14 @@ const nextConfig = {
   staticPageGenerationTimeout: 120,
   // Increase build performance
   poweredByHeader: false,
-  // Output standalone build (better performance for deployment)
-  output: 'standalone',
+  // Configure asset prefix for GitHub Pages (if not using a custom domain)
+  // assetPrefix: '',
+  // Disable image optimization for static export
+  images: {
+    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+  },
 };
 
 // Apply bundle analyzer if ANALYZE is true
