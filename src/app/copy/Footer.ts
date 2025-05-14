@@ -9,74 +9,33 @@ export const footerCopy = {
                     target: "_blank"
                 },
                 {
+                    name: "Rujira",
+                    href: "https://www.rujira.network",
+                    target: "_blank"
+                },
+                {
                     name: "Vultisig",
                     href: "https://www.vultisig.com",
                     target: "_blank"
-                },
-                {
-                    name: "Acel Co",
-                    href: "https://www.acel.org",
-                    target: "_blank"
                 }
             ]
         },
         {
-            title: "Entrepreneur",
+            title: "Investor",
             links: [
                 {
-                    name: "21e8 Capital",
-                    href: "https://21e8.capital",
+                    name: "Jetson EV",
+                    href: "https://www.jetsonev.com",
                     target: "_blank"
                 },
                 {
-                    name: "TraitForge",
-                    href: "https://traitforge.info",
+                    name: "Air EV",
+                    href: "https://www.airev.com",
                     target: "_blank"
                 },
                 {
-                    name: "Nextgen North",
-                    href: "https://linktr.ee/nextgennorth",
-                    target: "_blank"
-                }
-            ]
-        },
-        {
-            title: "Resources",
-            links: [
-                {
-                    name: "Investments",
-                    href: "https://21e8.capital",
-                    target: "_blank"
-                },
-                {
-                    name: "Brand Guidelines",
-                    href: "/docs/JP Thor - Brand Guidelines.pdf",
-                    target: "_blank",
-                    download: "JP Thor - Brand Guidelines.pdf"
-                },
-                {
-                    name: "Media & Press",
-                    href: "#explorer",
-                    target: "_self"
-                }
-            ]
-        },
-        {
-            title: "Links",
-            links: [
-                {
-                    name: "ACEL",
-                    href: "https://acel.org",
-                    target: "_blank"
-                },
-                {
-                    name: "The ACEL Tunnel",
-                    href: "https://acel.space/",
-                    target: "_blank",
-                },
-                {
-                    name: "Space Brains",
-                    href: "https://spacebrains.io/",
+                    name: "Session",
+                    href: "https://getsession.org",
                     target: "_blank"
                 }
             ]

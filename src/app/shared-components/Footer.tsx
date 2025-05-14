@@ -25,7 +25,7 @@ export function Footer() {
                         </div>
                     </div>
                     <div className="col-lg-8 row mt-lg-0 mt-5">
-                        <div className="col-lg-3 col-6">
+                        <div className="col-lg-6 col-6">
                             <ul className="list-unstyled">
                                 <li className="mb-4">
                                     <h3 className="text-medium text-green">{footerCopy.links[0].title}</h3>
@@ -39,7 +39,7 @@ export function Footer() {
                                 ))}
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-6">
+                        <div className="col-lg-6 col-6">
                             <ul className="list-unstyled">
                                 <li className="mb-4">
                                     <h3 className="text-medium text-green">{footerCopy.links[1].title}</h3>
@@ -47,34 +47,6 @@ export function Footer() {
                                 {footerCopy.links[1].links.map((link, index) => (
                                     <li key={index}>
                                         <a href={link.href} target={link.target} className="nav-link text-small text-thin my-2">
-                                            {link.name}
-                                        </a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="col-lg-3 col-6 mt-lg-0 mt-3">
-                            <ul className="list-unstyled">
-                                <li className="mb-4">
-                                    <h3 className="text-medium text-green">{footerCopy.links[2].title}</h3>
-                                </li>
-                                {footerCopy.links[2].links.map((link, index) => (
-                                    <li key={index}>
-                                        <a href={link.href} target={link.target} className="nav-link text-small text-thin my-2" download={link.download}>
-                                            {link.name}
-                                        </a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="col-lg-3 col-6 mt-lg-0 mt-3">
-                            <ul className="list-unstyled">
-                                <li className="mb-4">
-                                    <h3 className="text-medium text-green">{footerCopy.links[3].title}</h3>
-                                </li>
-                                {footerCopy.links[3].links.map((link, index) => (
-                                    <li key={index}>
-                                        <a href={link.href} target={link.target} className="nav-link text-small text-thin my-2" download={link.download}>
                                             {link.name}
                                         </a>
                                     </li>
