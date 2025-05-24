@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react'
+import React, { createContext, useReducer, useId } from 'react'
 import { ProviderProps } from './Props'
 
 type State = {
@@ -45,6 +45,9 @@ export function OffcanvasProvider({
         isOpen: false
     })
 
+    // generate a stable unique id for this provider instance
+    const id = useId()
+
     const handleOpen = () => {
         dispatch({ type: 'open' })
         if (onOpen) onOpen()
@@ -55,7 +58,7 @@ export function OffcanvasProvider({
     }
 
     return (
-        <AppContext.Provider value={{ isOpen, handleOpen, handleClose, randomId: "new" }}>
+        <AppContext.Provider value={{ isOpen, handleOpen, handleClose, randomId: id }}>
             <div className="simple-offcanvas-component d-flex align-items-center">{children}</div>
         </AppContext.Provider>
     )

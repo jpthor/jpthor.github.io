@@ -11,7 +11,18 @@ export function Trigger({
 }: TriggerProps) {
     const { handleOpen, randomId } = useContext(AppContext)
 
+    const Component = component as keyof JSX.IntrinsicElements
+
     return (
-        <Image width={50} height={50} src="/img/text-center.svg"  id="menu-ico" alt='Menu' onClick={handleOpen} />
+        <Component
+            className={className}
+            style={styles}
+            onClick={handleOpen}
+            aria-controls={`offcanvas_${randomId}`}
+        >
+            {children ? children : (
+                <Image width={50} height={50} src="/img/text-center.svg" id="menu-ico" alt="Menu" />
+            )}
+        </Component>
     )
 }
