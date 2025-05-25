@@ -64,7 +64,7 @@ export const footerCopy = {
         {
             title: "TikTok",
             href: "https://www.tiktok.com/@jpthor89",
-            image: "./img/icon-tiktok-green.svg",
+            image: "/img/icon-tiktok-green.svg",
             target: "_blank"
         },
         {

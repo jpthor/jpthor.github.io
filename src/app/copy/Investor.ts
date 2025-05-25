@@ -18,7 +18,7 @@ export const investorCopy = {
         },
         {
             title: "Session",
-            description: `Private Messanger. Send Messages, Not Metadata`,
+            description: `Private Messenger. Send Messages, Not Metadata`,
             link: "https://getsession.org/",
             image: "/img/logo-session.svg",
             target: "_blank"
