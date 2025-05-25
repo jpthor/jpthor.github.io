@@ -47,7 +47,7 @@ const Bio = dynamic(() =>
     loading: () => <div className="py-4">Loading...</div> 
 });
 
-// Dynamic import removed, using direct import instead
+// Components loaded dynamically for performance
 
 export default function Landing() {
     // Track if page is mounted
