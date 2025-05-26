@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     startupImage: '/img/jp-favicon.ico',
   },
   openGraph: {
+    type: 'website',
+    title: 'JPThor',
     siteName: 'JPThor',
     url: 'https://jpthor.com',
     description: "Learn, Move, Create",
