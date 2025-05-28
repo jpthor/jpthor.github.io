@@ -25,12 +25,12 @@ export const footerCopy = {
             links: [
                 {
                     name: "Jetson EV",
-                    href: "https://www.jetsonev.com",
+                    href: "https://www.jetson.com",
                     target: "_blank"
                 },
                 {
                     name: "Air EV",
-                    href: "https://www.airev.com",
+                    href: "https://www.airev.aero",
                     target: "_blank"
                 },
                 {
