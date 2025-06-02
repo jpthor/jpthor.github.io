@@ -6,20 +6,12 @@ export const navbarCopy = {
             href: "#meet"
         },
         {
-            title: "FOUNDER",
-            href: "#FOUNDER"
-        },
-        {
             title: "ENGINEER",
             href: "#ENGINEER"
         },
         {
             title: "EXPLORER",
             href: "#explorer"
-        },
-        {
-            title: "INVESTOR",
-            href: "#INVESTOR"
         },
         {
             title: "JP MEDIA",

@@ -11,11 +11,6 @@ const MeetJP = dynamic(() =>
     loading: () => <div className="py-4">Loading...</div>
 });
 
-const Founder = dynamic(() => 
-    import("@/app/components/Founder").then(mod => ({ default: mod.Founder })), { 
-    ssr: true,
-    loading: () => <div className="py-4">Loading...</div> 
-});
 
 const Engineer = dynamic(() => 
     import("@/app/components/Engineer").then(mod => ({ default: mod.Engineer })), { 
@@ -29,11 +24,6 @@ const Explorer = dynamic(() =>
     loading: () => <div className="py-4">Loading...</div> 
 });
 
-const Investor = dynamic(() => 
-    import("@/app/components/Investor").then(mod => ({ default: mod.Investor })), { 
-    ssr: true,
-    loading: () => <div className="py-4">Loading...</div> 
-});
 
 const Media = dynamic(() => 
     import("@/app/components/Media").then(mod => ({ default: mod.Media })), { 
@@ -95,9 +85,6 @@ export default function Landing() {
                     <MeetJP />
                 </Suspense>
                 
-                <Suspense fallback={<div className="py-5">Loading founder info...</div>}>
-                    <Founder />
-                </Suspense>
                 
                 <Suspense fallback={<div className="py-5">Loading section...</div>}>
                     <Engineer />
@@ -107,9 +94,6 @@ export default function Landing() {
                     <Explorer />
                 </Suspense>
                 
-                <Suspense fallback={<div className="py-5">Loading section...</div>}>
-                    <Investor />
-                </Suspense>
                 
                 <Suspense fallback={<div className="py-5">Loading section...</div>}>
                     <Media />
